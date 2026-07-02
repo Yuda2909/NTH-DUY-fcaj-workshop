@@ -11,11 +11,11 @@ chapter: false
 
 ### Student Information:
 
-  **Full Name:** Nguyễn Thành Lộc
+  **Full Name:** Nguyen Tran Hong Duy
 
-  **Phone Number:** 0853555443
+  **Phone Number:** 0764403513
 
-  **Email:** [locnguyennn114@gmail.com](mailto:locnguyennn114@gmail.com)
+  **Email:** [nth.duy2909@gmail.com](mailto:nth.duy2909@gmail.com)
 
   **University:** Ho Chi Minh City University of Technology (HUTECH)
 
@@ -35,9 +35,8 @@ chapter: false
 
   **Internship Duration:** From 17/04/2026 to 10/07/2026
 
-![Your profile picture](/images/avatar.png)
-
-### Report Content
+<img src="/images/avatar.jpg" alt="Your profile picture" width="500">
+Report Content
 
 1. [Worklog](1-Worklog/)
 2. [Proposal](2-Proposal/)
