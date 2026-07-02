@@ -47,8 +47,6 @@ The most satisfying part of my internship was the opportunity to learn AWS servi
 **What do you think the company should improve for future interns?**
 I think the company should improve group communication management. Important announcements should be separated from general discussion messages so that interns can track deadlines, schedules, and official information more easily.
 
-**If recommending to a friend, would you suggest they intern here? Why or why not?**
-Yes, I would recommend this internship program to friends who are interested in cloud computing, AWS, and real project development. The program provides useful learning materials, hands-on experience, and opportunities to understand how cloud services are applied in practice.
 
 ---
 

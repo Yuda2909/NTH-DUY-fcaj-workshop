@@ -1,5 +1,5 @@
 ---
-title: "Sự kiện 2: Automated Prompt Engineering"
+title: "Sự kiện 2"
 date: 2026-06-06
 weight: 2
 chapter: false

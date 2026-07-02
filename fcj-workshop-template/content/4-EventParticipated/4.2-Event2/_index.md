@@ -1,5 +1,5 @@
 ---
-title: "Event 2: Automated Prompt Engineering"
+title: "Event 2"
 date: 2026-06-06
 weight: 2
 chapter: false

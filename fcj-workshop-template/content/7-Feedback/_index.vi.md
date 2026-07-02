@@ -47,8 +47,6 @@ Việc tách riêng như vậy sẽ giúp thực tập sinh theo dõi thông tin
 **Theo bạn, công ty nên cải thiện điều gì cho các thực tập sinh sau này?**
 Theo tôi, công ty nên cải thiện cách quản lý nhóm trao đổi thông tin. Các thông báo quan trọng nên được tách riêng khỏi các tin nhắn thảo luận chung để thực tập sinh dễ theo dõi deadline, lịch trình và các thông tin chính thức.
 
-**Nếu giới thiệu cho bạn bè, bạn có đề xuất họ thực tập tại đây không? Vì sao?**
-Có. Tôi sẽ giới thiệu chương trình thực tập này cho những bạn quan tâm đến điện toán đám mây, AWS và phát triển dự án thực tế. Chương trình cung cấp tài liệu học tập hữu ích, cơ hội thực hành và giúp người tham gia hiểu cách các dịch vụ Cloud được áp dụng trong thực tế.
 
 ---
 

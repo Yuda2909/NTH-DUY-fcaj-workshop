@@ -18,9 +18,21 @@ Các sự kiện này giúp tôi củng cố kiến thức kỹ thuật và tư 
 
 Sự kiện này giới thiệu tầm quan trọng của Prompt Engineering, cấu trúc của một prompt hiệu quả, các kỹ thuật prompting nâng cao, token economics và ứng dụng Proptimizer được xây dựng trên kiến trúc serverless của AWS.
 
+Thời gian: 09:00 ngày 09/05/2026
+
+Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+Vai trò trong sự kiện: Người tham dự
+
 ### [4.2 - Sự kiện 2: Automated Prompt Engineering](4.2-Event-2/)
 
 Sự kiện này cung cấp góc nhìn kỹ thuật sâu hơn về automated prompt engineering, các phương pháp prompting nâng cao, tối ưu chi phí token và kiến trúc AWS serverless có thể áp dụng cho sản phẩm AI thực tế.
+
+Thời gian: 09:00 ngày 06/06/2026
+
+Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+Vai trò trong sự kiện: Người tham dự
 
 ---
 

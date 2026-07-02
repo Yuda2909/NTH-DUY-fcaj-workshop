@@ -18,10 +18,21 @@ These events helped me strengthen both technical knowledge and practical thinkin
 
 This event introduced the importance of prompt engineering, the structure of effective prompts, advanced prompting techniques, token economics, and the Proptimizer application built on AWS serverless architecture.
 
+Date & Time: 09:00, May 09, 2026
+
+Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+Role: Attendee
+
 ### [4.2 - Event 2: Automated Prompt Engineering](4.2-Event-2/)
 
 This event provided a deeper technical view of automated prompt engineering, advanced prompting methods, token cost optimization, and a production-ready AWS serverless architecture for AI applications.
 
+Date & Time: 09:00, June 06, 2026
+
+Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+Role: Attendee
 ---
 
 ## Key Learning Outcomes
