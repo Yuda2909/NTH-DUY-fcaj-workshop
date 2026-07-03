@@ -224,6 +224,7 @@ Mở:
 Amazon Cognito > User pools > Users
 ```
 
+
 Tìm số điện thoại đã đăng ký.
 
 Kiểm tra:
@@ -242,6 +243,8 @@ Mở:
 ```text
 DynamoDB > Tables > wallet-app-main-dev
 ```
+<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
+
 
 Kiểm tra profile và wallet record đã được tạo cho người dùng mới.
 

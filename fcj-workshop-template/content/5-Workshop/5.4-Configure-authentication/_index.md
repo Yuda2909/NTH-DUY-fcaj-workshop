@@ -242,6 +242,7 @@ Open:
 ```text
 DynamoDB > Tables > wallet-app-main-dev
 ```
+<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 Check that profile and wallet records were created for the new user.
 

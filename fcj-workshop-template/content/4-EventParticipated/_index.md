@@ -33,6 +33,8 @@ Date & Time: 09:00, June 06, 2026
 Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
 Role: Attendee
+
+
 ---
 
 ## Key Learning Outcomes

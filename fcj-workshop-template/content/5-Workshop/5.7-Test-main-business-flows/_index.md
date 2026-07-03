@@ -328,6 +328,8 @@ Open:
 ```text
 DynamoDB > Tables > wallet-app-main-dev
 ```
+<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
+
 
 Check records related to:
 

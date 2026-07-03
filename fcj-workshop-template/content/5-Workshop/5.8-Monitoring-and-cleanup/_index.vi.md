@@ -103,6 +103,7 @@ Mở:
 ```text id="n9xs4v"
 DynamoDB > Tables > wallet-app-main-dev
 ```
+<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 Kiểm tra các record mong đợi sau khi chạy demo.
 
@@ -156,6 +157,7 @@ Mở:
 ```text id="el7vfn"
 Amazon Cognito > User pools > Users
 ```
+<img src="/images/c-user.png" alt="Amazon Cognito > User pools > Users" width="1300">
 
 Kiểm tra tài khoản người dùng được tạo trong quá trình demo.
 
@@ -202,6 +204,7 @@ Các trạng thái thành công thường là:
 CREATE_COMPLETE
 UPDATE_COMPLETE
 ```
+<img src="/images/stack.png" alt="CloudFormation > Stacks" width="1300">
 
 Nếu stack bị lỗi trong quá trình deploy, mở tab **Events** để xem tài nguyên nào bị lỗi.
 
@@ -258,6 +261,7 @@ Chọn:
 ```text id="xo8n66"
 Delete
 ```
+<img src="/images/delete.png" alt="Delete" width="1300">
 
 Xác nhận thao tác xóa.
 
@@ -311,6 +315,7 @@ CloudWatch Logs có thể tiếp tục lưu log sau khi kiểm thử.
 ```text id="ooe89d"
 CloudWatch > Logs > Log groups > Select log group > Retention settings
 ```
+<img src="/images/rent.png" alt="rentetion" width="1300">
 
 Thời gian lưu log khuyến nghị cho môi trường development:
 
@@ -319,6 +324,8 @@ Thời gian lưu log khuyến nghị cho môi trường development:
 14 days
 30 days
 ```
+<img src="/images/setting.png" alt="rentetion" width="900">
+
 
 Không nên để log development được lưu vĩnh viễn nếu không cần thiết.
 

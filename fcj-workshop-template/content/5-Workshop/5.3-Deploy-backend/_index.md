@@ -182,6 +182,7 @@ Open the AWS Management Console and go to:
 ```text
 DynamoDB > Tables
 ```
+<img src="/images/aws-dynamoDB.png" alt="AWS DynamoDB" width="1300">
 
 Check the main table:
 
@@ -213,6 +214,7 @@ Open:
 ```text
 Amazon S3 > Buckets
 ```
+<img src="/images/S3-buckets.png" alt="AWS S3 - Buckets" width="1300">
 
 Check the upload bucket created by the backend stack.
 
@@ -234,11 +236,16 @@ Open:
 Amazon Cognito > User pools
 ```
 
+<img src="/images/Cognito-UP.png" alt="AWS Cognito - User Pool" width="1300">
+
+
 Check the User Pool ID:
 
 ```text
 ap-southeast-1_AKc39KB4L
 ```
+
+<img src="/images/UP.png" alt="AWS Cognito - User Pool" width="1300">
 
 The User Pool handles:
 
@@ -260,6 +267,8 @@ Open:
 AWS Lambda > Functions
 ```
 
+<img src="/images/lambda-F.png" alt="AWS Cognito - User Pool" width="1300">
+
 Check that the backend Lambda functions were created successfully.
 
 Then open:
@@ -267,6 +276,8 @@ Then open:
 ```text
 CloudWatch > Log groups
 ```
+<img src="/images/cw-log.png" alt="AWS Cognito - User Pool" width="1300">
+
 
 Check the log groups for Lambda functions. These logs are useful for debugging API errors, authentication problems, payment issues, and data validation errors.
 
@@ -309,6 +320,10 @@ Open:
 ```text
 CloudFormation > Stacks > wallet-app-backend-dev > Events
 ```
+<img src="/images/c-info.png" alt="AWS Cognito - User Pool" width="1300">
+
+<img src="/images/event.png" alt="AWS Cognito - User Pool" width="900">
+
 
 Read the failed event and fix the related resource or permission.
 

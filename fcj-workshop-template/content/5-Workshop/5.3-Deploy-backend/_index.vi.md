@@ -8,7 +8,6 @@ pre: " <b> 5.3. </b> "
 
 ---
 
-# Deploy backend AWS BILLO
 
 Phần này hướng dẫn build và deploy backend AWS BILLO bằng AWS SAM và AWS CloudFormation.
 
@@ -184,6 +183,7 @@ Mở AWS Management Console và vào:
 ```text
 DynamoDB > Tables
 ```
+<img src="/images/aws-dynamoDB.png" alt="AWS DynamoDB" width="1300">
 
 Kiểm tra main table:
 
@@ -215,6 +215,7 @@ Mở:
 ```text
 Amazon S3 > Buckets
 ```
+<img src="/images/S3-buckets.png" alt="AWS S3 - Buckets" width="1300">
 
 Kiểm tra upload bucket được tạo bởi backend stack.
 
@@ -235,12 +236,17 @@ Mở:
 ```text
 Amazon Cognito > User pools
 ```
+<img src="/images/Cognito-UP.png" alt="AWS Cognito - User Pool" width="1300">
+
 
 Kiểm tra User Pool ID:
 
 ```text
 ap-southeast-1_AKc39KB4L
 ```
+
+<img src="/images/UP.png" alt="AWS Cognito - User Pool" width="1300">
+
 
 User Pool xử lý:
 
@@ -261,6 +267,8 @@ Mở:
 ```text
 AWS Lambda > Functions
 ```
+<img src="/images/lambda-F.png" alt="AWS Cognito - User Pool" width="1300">
+
 
 Kiểm tra các Lambda functions của backend đã được tạo thành công.
 
@@ -269,6 +277,8 @@ Sau đó mở:
 ```text
 CloudWatch > Log groups
 ```
+<img src="/images/cw-log.png" alt="AWS Cognito - User Pool" width="1300">
+
 
 Kiểm tra log groups của Lambda functions. Các log này hữu ích khi debug lỗi API, lỗi xác thực, lỗi thanh toán và lỗi validate dữ liệu.
 
@@ -311,6 +321,9 @@ Mở:
 ```text
 CloudFormation > Stacks > wallet-app-backend-dev > Events
 ```
+<img src="/images/c-info.png" alt="AWS Cognito - User Pool" width="1300">
+
+<img src="/images/event.png" alt="AWS Cognito - User Pool" width="900">
 
 Đọc event bị lỗi và sửa tài nguyên hoặc quyền liên quan.
 

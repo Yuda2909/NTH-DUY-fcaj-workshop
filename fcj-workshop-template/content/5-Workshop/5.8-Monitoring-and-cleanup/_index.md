@@ -102,6 +102,7 @@ Open:
 ```text id="n1c8z9"
 DynamoDB > Tables > wallet-app-main-dev
 ```
+<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 Check whether expected records exist after running the demo.
 
@@ -155,6 +156,7 @@ Open:
 ```text id="0ct1l5"
 Amazon Cognito > User pools > Users
 ```
+<img src="/images/c-user.png" alt="Amazon Cognito > User pools > Users" width="1300">
 
 Check the user account created during the demo.
 
@@ -201,6 +203,8 @@ Expected successful statuses include:
 CREATE_COMPLETE
 UPDATE_COMPLETE
 ```
+<img src="/images/stack.png" alt="CloudFormation > Stacks" width="1300">
+
 
 If the stack failed during deployment, open the **Events** tab and review the failed resource.
 
@@ -257,6 +261,7 @@ Choose:
 ```text id="13h4c5"
 Delete
 ```
+<img src="/images/delete.png" alt="Delete" width="1300">
 
 Confirm the deletion.
 
@@ -310,6 +315,8 @@ To reduce cost, configure log retention:
 ```text id="i2g5l9"
 CloudWatch > Logs > Log groups > Select log group > Retention settings
 ```
+<img src="/images/rent.png" alt="rentetion" width="1300">
+
 
 Recommended retention for development:
 
@@ -318,6 +325,9 @@ Recommended retention for development:
 14 days
 30 days
 ```
+<img src="/images/setting.png" alt="rentetion" width="900">
+
+
 
 Avoid keeping development logs forever if they are not needed.
 
