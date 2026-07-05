@@ -85,7 +85,7 @@ Kiến trúc này không yêu cầu Amazon EC2, custom VPC, NAT Gateway hoặc R
 
 ### 4. AWS BILLO System Architecture
 
-<img src="/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
+<img src="../images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
 
 
 ### Các dịch vụ AWS sử dụng

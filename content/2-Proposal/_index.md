@@ -85,7 +85,7 @@ The architecture does not require Amazon EC2, custom VPC, NAT Gateway, or RDS be
 
 ### 4. AWS BILLO System Architecture
 
-<img src="/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
+<img src="../images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
 
 
 ### AWS Services Used
