@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tổng quan workshop"
 date: 2026-06-29
 weight: 1
@@ -78,7 +78,7 @@ Flutter frontend và Admin Web hiện đang chạy local trong giai đoạn phá
 ## Công nghệ và cấu trúc dự án hiện tại
 
 Source code dự án được chia thành ba phần chính:
-![Cấu trúc thư mục dự án AWS BILLO](/images/5-Workshop/project-structure.png)
+![Cấu trúc thư mục dự án AWS BILLO](/NTH-DUY-fcaj-workshop/images/5-Workshop/project-structure.png)
 
 ---
 
@@ -122,3 +122,4 @@ Workshop demo theo flow sau:
 Sau khi hoàn thành workshop, backend sẽ được deploy thành công lên AWS, đồng thời Flutter frontend và Admin Web chạy local có thể kết nối với backend đã deploy.
 
 Người thực hiện có thể kiểm thử các luồng chính của AWS BILLO, bao gồm xác thực, duyệt Merchant, quản lý sản phẩm, gọi món bằng QR bàn, thanh toán QR và xem lịch sử giao dịch.
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Internship Report"
 date: 2026-04-17
 weight: 1
@@ -35,7 +35,7 @@ chapter: false
 
   **Internship Duration:** From 17/04/2026 to 10/07/2026
 
-<img src="/images/avatar.jpg" alt="Your profile picture" width="900">
+<img src="/NTH-DUY-fcaj-workshop/images/avatar.jpg" alt="Your profile picture" width="900">
 Report Content
 
 1. [Worklog](1-Worklog/)
@@ -45,3 +45,4 @@ Report Content
 5. [Workshop](5-Workshop/)
 6. [Self-evaluation](6-Self-evaluation/)
 7. [Sharing and Feedback](7-Feedback/)
+

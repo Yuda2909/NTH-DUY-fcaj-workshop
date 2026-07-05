@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-04-17
 weight: 1
@@ -56,9 +56,9 @@ Overall, AWS Transform can be a powerful tool for organizations that want to acc
 
 ## Image
 
-![AWS Transform Landing Zone](/images/Blog/blog1.1.png)
+![AWS Transform Landing Zone](/NTH-DUY-fcaj-workshop/images/Blog/blog1.1.png)
 
-![AWS Transform Architecture](/images/Blog/blog1.2.png)
+![AWS Transform Architecture](/NTH-DUY-fcaj-workshop/images/Blog/blog1.2.png)
 
 ## Reference Link
 
@@ -75,3 +75,4 @@ Instead, I focused on:
 - Understanding how AWS Transform supports Landing Zone creation
 - Reviewing the benefits, risks, and cost considerations
 - Summarizing my personal opinion about AI-powered infrastructure automation
+

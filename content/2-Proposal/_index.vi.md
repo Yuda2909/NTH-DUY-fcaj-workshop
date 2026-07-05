@@ -1,4 +1,4 @@
----
+﻿---
 title: "Đề xuất dự án"
 date: 2026-06-29
 weight: 2
@@ -85,7 +85,7 @@ Kiến trúc này không yêu cầu Amazon EC2, custom VPC, NAT Gateway hoặc R
 
 ### 4. AWS BILLO System Architecture
 
-<img src="/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
 
 
 ### Các dịch vụ AWS sử dụng
@@ -370,3 +370,4 @@ Các hướng cải tiến trong tương lai có thể bao gồm:
 - Hosting frontend production.
 - Phát hiện gian lận và giới hạn giao dịch.
 - Audit logs và đối soát tài chính.
+

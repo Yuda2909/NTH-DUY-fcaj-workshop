@@ -1,4 +1,4 @@
----
+﻿---
 title: "Báo cáo thực tập"
 date: 2026-04-17
 weight: 1
@@ -36,7 +36,7 @@ chapter: false
   **Thời gian thực tập:** Từ 17/04/2026 đến 10/07/2026
 
 
-<img src="/images/avatar.jpg" alt="Your profile picture" width="900">
+<img src="/NTH-DUY-fcaj-workshop/images/avatar.jpg" alt="Your profile picture" width="900">
 
 
 1. [Nhật ký thực tập](1-Worklog/)
@@ -46,3 +46,4 @@ chapter: false
 5. [Workshop](5-Workshop/)
 6. [Tự đánh giá](6-Self-evaluation/)
 7. [Chia sẻ và phản hồi](7-Feedback/)
+

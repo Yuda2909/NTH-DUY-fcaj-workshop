@@ -1,4 +1,4 @@
----
+﻿---
 title: "Proposal"
 date: 2026-06-29
 weight: 2
@@ -85,7 +85,7 @@ The architecture does not require Amazon EC2, custom VPC, NAT Gateway, or RDS be
 
 ### 4. AWS BILLO System Architecture
 
-<img src="/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
 
 
 ### AWS Services Used
@@ -370,3 +370,4 @@ Future improvements may include:
 - Production frontend hosting.
 - Fraud detection and transaction limits.
 - Audit logs and financial reconciliation.
+

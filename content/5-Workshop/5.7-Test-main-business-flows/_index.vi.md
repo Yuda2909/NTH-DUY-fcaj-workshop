@@ -1,4 +1,4 @@
----
+﻿---
 title: "Kiểm thử các luồng nghiệp vụ chính"
 date: 2026-06-29
 weight: 7
@@ -328,7 +328,7 @@ Mở:
 ```text
 DynamoDB > Tables > wallet-app-main-dev
 ```
-<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 Kiểm tra các record liên quan đến:
 
@@ -421,3 +421,4 @@ Customer registration
 ```
 
 Điều này xác nhận Flutter frontend, Admin Web, Cognito, API Gateway, Lambda, DynamoDB, S3 và CloudWatch Logs đang phối hợp với nhau trong dự án AWS BILLO.
+

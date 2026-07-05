@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 2"
 date: 2026-04-17
 weight: 2
@@ -94,7 +94,7 @@ Một thông điệp rất ấn tượng từ bài blog là:
 
 ## Hình ảnh
 
-![Physical AI in Healthcare](/images/Blog/Blog2.png)
+![Physical AI in Healthcare](/NTH-DUY-fcaj-workshop/images/Blog/Blog2.png)
 
 ## Link tham khảo
 
@@ -112,3 +112,4 @@ Thay vào đó, tôi tập trung vào:
 - Tìm hiểu các dịch vụ AWS được đề cập trong kiến trúc
 - Phân tích lợi ích, hạn chế và thách thức khi triển khai
 - Tổng hợp nhận xét cá nhân về tương lai của chăm sóc sức khỏe ứng dụng AI
+

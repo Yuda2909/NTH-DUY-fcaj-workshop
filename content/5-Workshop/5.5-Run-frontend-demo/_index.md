@@ -1,4 +1,4 @@
----
+﻿---
 title: "Run Flutter Frontend Demo"
 date: 2026-06-29
 weight: 5
@@ -92,7 +92,7 @@ flutter run -d chrome --web-port 8080 --dart-define-from-file=config/dev.json
 ```
 
 Expected result:
-![Demo Flutter app chạy local](/images/5-Workshop/flutter-local-demo.png)
+![Demo Flutter app chạy local](/NTH-DUY-fcaj-workshop/images/5-Workshop/flutter-local-demo.png)
 
 - Chrome opens the Flutter app.
 - The app loads the authentication screen.
@@ -253,3 +253,4 @@ After completing this section:
 - Business registration can be submitted.
 - Merchant functions can be tested after Admin approval.
 - Table QR ordering and QR payment flows can be demonstrated.
+

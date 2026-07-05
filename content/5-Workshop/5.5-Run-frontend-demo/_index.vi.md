@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chạy demo Flutter Frontend"
 date: 2026-06-29
 weight: 5
@@ -92,7 +92,7 @@ flutter run -d chrome --web-port 8080 --dart-define-from-file=config/dev.json
 ```
 
 Kết quả mong đợi:
-![Demo Flutter app chạy local](/images/5-Workshop/flutter-local-demo.png)
+![Demo Flutter app chạy local](/NTH-DUY-fcaj-workshop/images/5-Workshop/flutter-local-demo.png)
 
 - Chrome mở Flutter app.
 - Ứng dụng hiển thị màn hình xác thực.
@@ -253,3 +253,4 @@ Sau khi hoàn thành phần này:
 - Có thể gửi hồ sơ đăng ký kinh doanh.
 - Có thể kiểm thử chức năng Merchant sau khi Admin duyệt.
 - Có thể demo luồng gọi món bằng QR bàn và thanh toán QR.
+

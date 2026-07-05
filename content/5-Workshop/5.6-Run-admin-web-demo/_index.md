@@ -1,4 +1,4 @@
----
+﻿---
 title: "Run Admin Web Demo"
 date: 2026-06-29
 weight: 6
@@ -85,7 +85,7 @@ npm run dev
 ```
 
 Expected result:
-![Admin Web Local Demo](/images/5-Workshop/admin-web-local-demo.png)
+![Admin Web Local Demo](/NTH-DUY-fcaj-workshop/images/5-Workshop/admin-web-local-demo.png)
 
 ```text
 VITE ready
@@ -262,3 +262,4 @@ After completing this section:
 - Admin can approve or reject merchant applications.
 - Approved users can access Merchant features after logging in again.
 - Merchant application status is updated in DynamoDB.
+

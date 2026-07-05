@@ -1,4 +1,4 @@
----
+﻿---
 title: "Monitoring and Cleanup"
 date: 2026-06-29
 weight: 8
@@ -39,7 +39,7 @@ Open the AWS Management Console and go to:
 ```text id="5bv8be"
 CloudWatch > Logs > Log groups
 ```
-![CloudWatch Logs](/images/5-Workshop/cloudwatch-logs.png)
+![CloudWatch Logs](/NTH-DUY-fcaj-workshop/images/5-Workshop/cloudwatch-logs.png)
 Search for log groups related to the AWS BILLO Lambda functions.
 
 Lambda log groups usually follow this format:
@@ -102,7 +102,7 @@ Open:
 ```text id="n1c8z9"
 DynamoDB > Tables > wallet-app-main-dev
 ```
-<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 Check whether expected records exist after running the demo.
 
@@ -156,7 +156,7 @@ Open:
 ```text id="0ct1l5"
 Amazon Cognito > User pools > Users
 ```
-<img src="/images/c-user.png" alt="Amazon Cognito > User pools > Users" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/c-user.png" alt="Amazon Cognito > User pools > Users" width="1300">
 
 Check the user account created during the demo.
 
@@ -203,7 +203,7 @@ Expected successful statuses include:
 CREATE_COMPLETE
 UPDATE_COMPLETE
 ```
-<img src="/images/stack.png" alt="CloudFormation > Stacks" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/stack.png" alt="CloudFormation > Stacks" width="1300">
 
 
 If the stack failed during deployment, open the **Events** tab and review the failed resource.
@@ -261,7 +261,7 @@ Choose:
 ```text id="13h4c5"
 Delete
 ```
-<img src="/images/delete.png" alt="Delete" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/delete.png" alt="Delete" width="1300">
 
 Confirm the deletion.
 
@@ -315,7 +315,7 @@ To reduce cost, configure log retention:
 ```text id="i2g5l9"
 CloudWatch > Logs > Log groups > Select log group > Retention settings
 ```
-<img src="/images/rent.png" alt="rentetion" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/rent.png" alt="rentetion" width="1300">
 
 
 Recommended retention for development:
@@ -325,7 +325,7 @@ Recommended retention for development:
 14 days
 30 days
 ```
-<img src="/images/setting.png" alt="rentetion" width="900">
+<img src="/NTH-DUY-fcaj-workshop/images/setting.png" alt="rentetion" width="900">
 
 
 
@@ -394,3 +394,4 @@ After completing this section:
 - Users and groups can be checked in Cognito.
 - The backend stack can be deleted using SAM or CloudFormation.
 - Unnecessary AWS costs can be reduced after the workshop.
+

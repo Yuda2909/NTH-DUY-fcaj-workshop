@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-04-17
 weight: 3
@@ -116,7 +116,7 @@ Tuy nhiên, dữ liệu y tế đòi hỏi các kiểm soát nghiêm ngặt về
 
 ## Hình ảnh
 
-![Physical AI in Healthcare](/images/Blog/Blog3.png)
+![Physical AI in Healthcare](/NTH-DUY-fcaj-workshop/images/Blog/Blog3.png)
 
 ## Link tham khảo
 
@@ -135,3 +135,4 @@ Thay vào đó, tôi tập trung vào:
 - Tìm hiểu vai trò của AWS HealthLake như một kho dữ liệu y tế
 - Phân tích ưu điểm, hạn chế, vấn đề bảo mật và thách thức chi phí
 - Tổng hợp cách Generative AI có thể được ứng dụng vào data automation thực tế
+

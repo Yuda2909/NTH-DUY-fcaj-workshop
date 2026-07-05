@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-04-17
 weight: 3
@@ -116,7 +116,7 @@ However, healthcare data requires strict security, privacy, and compliance contr
 
 ## Image
 
-![Physical AI in Healthcare](/images/Blog/Blog3.png)
+![Physical AI in Healthcare](/NTH-DUY-fcaj-workshop/images/Blog/Blog3.png)
 
 ## Reference Link
 
@@ -135,3 +135,4 @@ Instead, I focused on:
 - Reviewing the role of AWS HealthLake as a healthcare data store
 - Analyzing the advantages, limitations, security concerns, and cost challenges
 - Summarizing how Generative AI can be applied to real-world data automation
+

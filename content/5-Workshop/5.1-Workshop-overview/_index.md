@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workshop Overview"
 date: 2026-06-29
 weight: 1
@@ -79,7 +79,7 @@ The Flutter frontend and Admin Web are currently run locally during development.
 
 The project source code is organized into three main parts:
 
-![Cấu trúc thư mục dự án AWS BILLO](/images/5-Workshop/project-structure.png)
+![Cấu trúc thư mục dự án AWS BILLO](/NTH-DUY-fcaj-workshop/images/5-Workshop/project-structure.png)
 
 ---
 
@@ -123,3 +123,4 @@ The workshop demo follows this flow:
 At the end of this workshop, the backend should be deployed successfully on AWS, and the local Flutter frontend and Admin Web should be able to connect to the deployed backend.
 
 The user should be able to test the main workflows of AWS BILLO, including authentication, merchant approval, product management, table QR ordering, QR payment, and transaction history.
+

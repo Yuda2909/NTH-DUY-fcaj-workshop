@@ -1,4 +1,4 @@
----
+﻿---
 title: "Deploy AWS BILLO Backend"
 date: 2026-06-29
 weight: 3
@@ -151,7 +151,7 @@ or:
 UPDATE_COMPLETE
 ```
 
-![CloudFormation Stack](/images/5-Workshop/cloudformation-stack.png)
+![CloudFormation Stack](/NTH-DUY-fcaj-workshop/images/5-Workshop/cloudformation-stack.png)
 If the stack fails, open the **Events** tab to identify the failed resource.
 
 ---
@@ -159,7 +159,7 @@ If the stack fails, open the **Events** tab to identify the failed resource.
 ## Step 7: Verify API Gateway Endpoint
 
 The backend API endpoint for the development environment is:
-![API Gateway Endpoint](/images/5-Workshop/api-gateway-endpoint.png)
+![API Gateway Endpoint](/NTH-DUY-fcaj-workshop/images/5-Workshop/api-gateway-endpoint.png)
 
 ```text
 https://zsqkp5vpb9.execute-api.ap-southeast-1.amazonaws.com/dev
@@ -182,7 +182,7 @@ Open the AWS Management Console and go to:
 ```text
 DynamoDB > Tables
 ```
-<img src="/images/aws-dynamoDB.png" alt="AWS DynamoDB" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/aws-dynamoDB.png" alt="AWS DynamoDB" width="1300">
 
 Check the main table:
 
@@ -214,7 +214,7 @@ Open:
 ```text
 Amazon S3 > Buckets
 ```
-<img src="/images/S3-buckets.png" alt="AWS S3 - Buckets" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/S3-buckets.png" alt="AWS S3 - Buckets" width="1300">
 
 Check the upload bucket created by the backend stack.
 
@@ -236,7 +236,7 @@ Open:
 Amazon Cognito > User pools
 ```
 
-<img src="/images/Cognito-UP.png" alt="AWS Cognito - User Pool" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/Cognito-UP.png" alt="AWS Cognito - User Pool" width="1300">
 
 
 Check the User Pool ID:
@@ -245,7 +245,7 @@ Check the User Pool ID:
 ap-southeast-1_AKc39KB4L
 ```
 
-<img src="/images/UP.png" alt="AWS Cognito - User Pool" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/UP.png" alt="AWS Cognito - User Pool" width="1300">
 
 The User Pool handles:
 
@@ -267,7 +267,7 @@ Open:
 AWS Lambda > Functions
 ```
 
-<img src="/images/lambda-F.png" alt="AWS Cognito - User Pool" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/lambda-F.png" alt="AWS Cognito - User Pool" width="1300">
 
 Check that the backend Lambda functions were created successfully.
 
@@ -276,7 +276,7 @@ Then open:
 ```text
 CloudWatch > Log groups
 ```
-<img src="/images/cw-log.png" alt="AWS Cognito - User Pool" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/cw-log.png" alt="AWS Cognito - User Pool" width="1300">
 
 
 Check the log groups for Lambda functions. These logs are useful for debugging API errors, authentication problems, payment issues, and data validation errors.
@@ -320,9 +320,9 @@ Open:
 ```text
 CloudFormation > Stacks > wallet-app-backend-dev > Events
 ```
-<img src="/images/c-info.png" alt="AWS Cognito - User Pool" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/c-info.png" alt="AWS Cognito - User Pool" width="1300">
 
-<img src="/images/event.png" alt="AWS Cognito - User Pool" width="900">
+<img src="/NTH-DUY-fcaj-workshop/images/event.png" alt="AWS Cognito - User Pool" width="900">
 
 
 Read the failed event and fix the related resource or permission.
@@ -341,3 +341,4 @@ After completing this section:
 - Cognito, API Gateway, Lambda, DynamoDB, S3, and CloudWatch Logs are available.
 - The API Gateway endpoint is ready to be used by the Flutter app and Admin Web.
 - The project is ready for authentication configuration and application testing.
+

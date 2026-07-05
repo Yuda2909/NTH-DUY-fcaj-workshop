@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure Authentication"
 date: 2026-06-29
 weight: 4
@@ -86,7 +86,7 @@ Merchant
 Admin
 ```
 
-![Cognito User Groups](/images/5-Workshop/cognito-user-groups.png)
+![Cognito User Groups](/NTH-DUY-fcaj-workshop/images/5-Workshop/cognito-user-groups.png)
 
 ### Customer Group
 
@@ -242,7 +242,7 @@ Open:
 ```text
 DynamoDB > Tables > wallet-app-main-dev
 ```
-<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 Check that profile and wallet records were created for the new user.
 
@@ -291,3 +291,4 @@ Possible causes:
 - JWT token is expired.
 - API Gateway authorizer is not configured correctly.
 - The frontend is calling the wrong API Gateway endpoint.
+

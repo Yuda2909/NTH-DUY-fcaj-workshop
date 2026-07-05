@@ -1,4 +1,4 @@
----
+﻿---
 title: "Test Main Business Flows"
 date: 2026-06-29
 weight: 7
@@ -328,7 +328,7 @@ Open:
 ```text
 DynamoDB > Tables > wallet-app-main-dev
 ```
-<img src="/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/maindev.png" alt="AWS dynamoDB-Tables - Maindev" width="1300">
 
 
 Check records related to:
@@ -422,3 +422,4 @@ Customer registration
 ```
 
 This confirms that the Flutter frontend, Admin Web, Cognito, API Gateway, Lambda, DynamoDB, S3, and CloudWatch Logs are working together in the AWS BILLO project.
+

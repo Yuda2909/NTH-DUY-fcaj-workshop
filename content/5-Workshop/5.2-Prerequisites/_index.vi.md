@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chuẩn bị môi trường"
 date: 2026-06-29
 weight: 2
@@ -30,7 +30,7 @@ Dự án được deploy tại AWS Region:
 ```text
 ap-southeast-1
 ```
-<img src="/images/aws-region-singapore.png" alt="AWS Singapore Region" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/aws-region-singapore.png" alt="AWS Singapore Region" width="1300">
 
 
 Đây là region Singapore.
@@ -224,3 +224,4 @@ Cognito OTP SMS phụ thuộc vào cấu hình SMS của AWS. Nếu tài khoản
 Frontend và Admin Web hiện đang chạy local. Workshop này không bao gồm AWS Amplify, Amazon S3 static hosting hoặc Amazon CloudFront.
 
 Trước khi thực hiện workshop, cần đảm bảo tài khoản AWS có đủ quyền và nên cấu hình AWS Budget alerts để tránh phát sinh chi phí ngoài ý muốn.
+

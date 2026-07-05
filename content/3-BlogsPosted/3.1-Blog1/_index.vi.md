@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-04-17
 weight: 1
@@ -56,9 +56,9 @@ Nhìn chung, AWS Transform có thể là một công cụ mạnh cho các tổ c
 
 ## Hình ảnh
 
-![AWS Transform Landing Zone](/images/Blog/blog1.1.png)
+![AWS Transform Landing Zone](/NTH-DUY-fcaj-workshop/images/Blog/blog1.1.png)
 
-![AWS Transform Architecture](/images/Blog/blog1.2.png)
+![AWS Transform Architecture](/NTH-DUY-fcaj-workshop/images/Blog/blog1.2.png)
 
 ## Link tham khảo
 
@@ -75,3 +75,4 @@ Thay vào đó, tôi tập trung vào:
 - Hiểu cách AWS Transform hỗ trợ tạo Landing Zone
 - Đánh giá lợi ích, rủi ro và các lưu ý về chi phí
 - Tổng hợp nhận xét cá nhân về tự động hóa hạ tầng bằng AI
+

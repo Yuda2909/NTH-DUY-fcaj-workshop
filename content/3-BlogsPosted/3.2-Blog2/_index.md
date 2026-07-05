@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 2"
 date: 2026-04-17
 weight: 2
@@ -94,7 +94,7 @@ A key message from the blog is very impressive:
 
 ## Image
 
-![Physical AI in Healthcare](/images/Blog/Blog2.png)
+![Physical AI in Healthcare](/NTH-DUY-fcaj-workshop/images/Blog/Blog2.png)
 
 ## Reference Link
 
@@ -112,3 +112,4 @@ Instead, I focused on:
 - Reviewing the AWS services mentioned in the architecture
 - Analyzing the benefits, limitations, and deployment challenges
 - Summarizing my personal opinion about the future of AI-powered healthcare
+

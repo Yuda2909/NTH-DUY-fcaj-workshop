@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chạy demo Admin Web"
 date: 2026-06-29
 weight: 6
@@ -85,7 +85,7 @@ npm run dev
 ```
 
 Kết quả mong đợi:
-![Admin Web Local Demo](/images/5-Workshop/admin-web-local-demo.png)
+![Admin Web Local Demo](/NTH-DUY-fcaj-workshop/images/5-Workshop/admin-web-local-demo.png)
 
 ```text
 VITE ready
@@ -262,3 +262,4 @@ Sau khi hoàn thành phần này:
 - Admin có thể duyệt hoặc từ chối hồ sơ Merchant.
 - Người dùng được duyệt có thể truy cập chức năng Merchant sau khi đăng nhập lại.
 - Trạng thái hồ sơ Merchant được cập nhật trong DynamoDB.
+

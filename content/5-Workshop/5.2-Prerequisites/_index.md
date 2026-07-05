@@ -1,4 +1,4 @@
----
+﻿---
 title: "Prerequisites"
 date: 2026-06-29
 weight: 2
@@ -30,7 +30,7 @@ The project is deployed in the following AWS Region:
 ```text
 ap-southeast-1
 ```
-<img src="/images/aws-region-singapore.png" alt="AWS Singapore Region" width="1300">
+<img src="/NTH-DUY-fcaj-workshop/images/aws-region-singapore.png" alt="AWS Singapore Region" width="1300">
 
 This is the Singapore Region.
 
@@ -223,3 +223,4 @@ Cognito OTP SMS depends on AWS SMS configuration. If the account is still in SMS
 The frontend and Admin Web are currently run locally. This workshop does not include AWS Amplify, Amazon S3 static hosting, or Amazon CloudFront.
 
 Before running the workshop, make sure the AWS account has enough permissions and that AWS Budget alerts are configured to avoid unexpected costs.
+
