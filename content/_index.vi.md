@@ -36,7 +36,7 @@ chapter: false
   **Thời gian thực tập:** Từ 17/04/2026 đến 10/07/2026
 
 
-<img src="../images/avatar.jpg" alt="Your profile picture" width="1300">
+<img src="../images/avatar.jpg" alt="Your profile picture" width="900">
 
 
 1. [Nhật ký thực tập](1-Worklog/)
