@@ -6,60 +6,30 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
----
-
 ### Mục tiêu tuần 3:
-
-- Ôn lại các kiến thức cơ bản về quản lý tài khoản AWS, IAM, AWS Budgets và VPC đã học ở các tuần trước.
-- Tiếp tục tìm hiểu các kiến thức nền tảng về mạng trên AWS.
-- Hiểu các phương pháp học tập và learning frameworks trong môi trường Cloud.
-- Tham gia buổi Seminar/Knowledge-sharing session tại công ty.
-- Ghi chú các kinh nghiệm thực tế và áp dụng vào kế hoạch học tập trong quá trình thực tập.
+- Tiếp cận nền tảng cơ sở dữ liệu NoSQL với trọng tâm là Amazon DynamoDB.
+- Khảo sát các khái niệm nền tảng của DynamoDB: Partition Key (PK), Sort Key (SK) và các loại Index.
+- Nghiên cứu kiến trúc thiết kế API thông qua cổng kết nối Amazon API Gateway.
+- Xây dựng một đường ống tích hợp backend hoàn chỉnh: API Gateway sang Lambda sang DynamoDB.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Ôn lại kiến thức về IAM, AWS Budgets, AWS Support và VPC cơ bản ở tuần 2 <br> - Ghi chú lại các nội dung chưa rõ để tiếp tục tìm hiểu                                                                                                                         | 04/05/2026   | 04/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Tiếp tục tìm hiểu kiến thức nền tảng về networking trên AWS <br> - Ôn lại các thành phần cơ bản của VPC: <br>  + VPC <br>  + Subnet <br>  + Route Table <br>  + Internet Gateway <br>  + Security Group                                                       | 05/05/2026   | 05/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tìm hiểu phương pháp học Cloud và kỹ năng đọc tài liệu kỹ thuật <br> - Thực hành đọc tài liệu AWS và xác định các phần quan trọng như mục tiêu lab, điều kiện chuẩn bị, kiến trúc và bước dọn dẹp tài nguyên                                                  | 06/05/2026   | 06/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tìm hiểu các learning frameworks thường dùng khi học kiến trúc Cloud <br> - Tìm hiểu cách tiếp cận một bài lab AWS theo trình tự: <br>  + Đọc mục tiêu <br>  + Chuẩn bị tài nguyên <br>  + Thực hành <br>  + Xử lý lỗi <br>  + Dọn dẹp tài nguyên             | 07/05/2026   | 07/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Chuẩn bị ghi chú và câu hỏi cho buổi event tại công ty <br> - Tổng hợp lại các bài lab AWS đã học <br> - Hoàn thiện nội dung worklog trong tuần                                                                                                               | 08/05/2026   | 08/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 7   | - Tham gia buổi Seminar/Knowledge-sharing session tại công ty <br> - Lắng nghe chia sẻ từ diễn giả và các thành viên công ty <br> - Tìm hiểu cách học Cloud, tư duy kỹ thuật và định hướng nghiên cứu AWS <br> - Ghi chú và tổng hợp nội dung học được từ event | 09/05/2026   | 09/05/2026      | Company event                           |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | - Làm việc trực tiếp tại văn phòng công ty <br> - Đồng bộ yêu cầu về tầng lưu trữ dữ liệu cho hệ thống sổ cái BILLO và nhu cầu xử lý giao dịch thời gian thực | 04/05/2026 | 04/05/2026 | Văn phòng công ty |
+| 3 | - Tìm hiểu mô hình dữ liệu DynamoDB, đơn vị năng suất Đọc/Ghi (RCU/WCU) và cơ chế tính giá theo nhu cầu (On-demand) <br> - Thực hành tạo các bảng thử nghiệm sử dụng khóa chính hỗn hợp (Composite Primary Key: PK + SK) | 05/05/2026 | 05/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Nghiên cứu Amazon API Gateway (so sánh tính năng REST APIs và HTTP APIs) <br> - Thiết kế các endpoint HTTP đơn giản, các đường dẫn (paths), tham số truy vấn và sơ đồ phương thức (GET/POST) | 06/05/2026 | 06/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Cấu hình định tuyến trên API Gateway để làm proxy chuyển tiếp trực tiếp traffic mạng vào một hàm Lambda <br> - Phân quyền vai trò IAM cấp phép cho hàm Lambda đọc và ghi bản ghi vào bảng DynamoDB | 07/05/2026 | 07/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Thực hiện kiểm thử endpoint toàn diện đầu cuối (End-to-End) thông qua các công cụ kiểm thử API (Postman) <br> - Phân tích thời gian thực thi luồng dữ liệu và thống kê các chỉ số về băng thông ban đầu | 08/05/2026 | 08/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Kết quả đạt được tuần 3:
 
-- Đã ôn lại các kiến thức chính của tuần 2, bao gồm IAM, AWS Budgets, AWS Support và VPC cơ bản.
+#### 1. Kiến trúc NoSQL được quản trị hoàn toàn
+* Thành thạo mô hình cấp phát dữ liệu của **Amazon DynamoDB**, cấu trúc của phần tử (Item) và các kiểu dữ liệu tương thích.
+* Tạo lập thành công các bảng dữ liệu schema-less tận dụng khóa chính hỗn hợp, cho phép thực hiện các truy vấn dữ liệu đa chiều – điều kiện bắt buộc để quản lý lịch sử giao dịch sau này.
 
-- Củng cố kiến thức về các thành phần networking cơ bản trên AWS:
-  - VPC
-  - Subnet
-  - Route Table
-  - Internet Gateway
-  - Security Group
-  - Network ACL
-  - ...
-
-- Biết cách đọc tài liệu AWS hiệu quả hơn thông qua việc tập trung vào:
-  - Mục tiêu bài lab
-  - Điều kiện chuẩn bị
-  - Các bước triển khai
-  - Sơ đồ kiến trúc
-  - Ghi chú xử lý lỗi
-  - Hướng dẫn dọn dẹp tài nguyên
-
-- Hiểu được tầm quan trọng của việc học Cloud theo một framework rõ ràng và có hệ thống.
-
-- Biết cách tiếp cận một bài thực hành AWS theo trình tự:
-  - Hiểu mục tiêu
-  - Chuẩn bị tài nguyên cần thiết
-  - Thực hiện các bước cấu hình
-  - Xác định và xử lý lỗi phát sinh
-  - Ghi nhận kết quả
-  - Dọn dẹp tài nguyên không sử dụng
-
-- Đã tham gia buổi Seminar/Knowledge-sharing session tại công ty vào ngày 09/05/2026.
-
-- Tiếp thu thêm kinh nghiệm thực tế từ diễn giả và các thành viên công ty về phương pháp học Cloud, tư duy kỹ thuật và định hướng học AWS.
-
-- Ghi chú lại các nội dung quan trọng từ event và áp dụng vào kế hoạch học tập cho những tuần tiếp theo.
+#### 2. Tích hợp đồng bộ chuẩn RESTful
+* Hiệu chỉnh và làm chủ cơ chế vận hành của **Amazon API Gateway**, cấu trúc chuyển đổi request đầu vào (Integration Mapping) và ghi đè trạng thái mã lỗi HTTP.
+* Triển khai thành công một đường ống serverless 3 lớp hoàn chỉnh: Cổng API Gateway tiếp nhận các request HTTP từ client bên ngoài, ủy quyền dữ liệu an toàn vào hàm tính toán Lambda, hàm này sau đó xử lý logic và trực tiếp ghi/đọc dữ liệu vào kho lưu trữ DynamoDB.

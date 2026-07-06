@@ -1,60 +1,35 @@
 ---
-title: "Week 7 Worklog"
+title: "Worklog Week 7"
 date: 2026-06-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
----
-
 ### Week 7 Objectives:
-
-- Start researching the internship project topic and define the main system requirements.
-- Identify AWS services that are suitable for the proposed project.
-- Analyze the main user flows and business flows of the system.
-- Discuss project feasibility, technical scope, and implementation direction.
-- Assign research tasks among team members for the next development phases.
+- Research user management, federated directory services, and secure web token lifecycles.
+- Deep-dive into Amazon Cognito User Pools and Identity Pools.
+- Map out multi-tenant security requirements and onboarding workflows for AWS BILLO.
+- Learn OAuth 2.0 and JSON Web Token (JWT) verification steps.
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                                             | Start Date | Completion Date | Reference Material                      |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Review the internship project requirements <br> - Discuss the initial project idea and expected system outcomes <br> - Identify the main users and core features of the system                                                 | 01/06/2026 | 01/06/2026      |                                         |
-| 3   | - Research AWS services that may be suitable for the project <br>  + Amazon S3 <br>  + Amazon DynamoDB <br>  + AWS Lambda <br>  + Amazon API Gateway <br>  + Amazon Cognito <br> - Take notes on the role of each service        | 02/06/2026 | 02/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Analyze the main system workflows <br>  + User registration and login flow <br>  + Merchant/store registration flow <br>  + Product or service management flow <br>  + Order and payment flow <br> - Draw draft workflow notes | 03/06/2026 | 03/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Evaluate the feasibility of the proposed project <br> - Discuss technical challenges, data storage requirements, authentication, and API design <br> - Identify which features should be prioritized for the MVP version       | 04/06/2026 | 04/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Assign research tasks to team members <br> - Summarize the proposed AWS architecture direction <br> - Prepare notes for the next phase of project design and implementation                                                    | 05/06/2026 | 05/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :--- | :--- | :--- | :--- | :--- |
+| Mon | - Work on-site at the company office <br> - Participate in structural reviews on access security, session expiry durations, and custom user properties | 06/01/2026 | 06/01/2026 | Company office |
+| Tue | - Study Amazon Cognito User Pools configuration settings: user attributes, password complexity profiles, and MFA choices | 06/02/2026 | 06/02/2026 | Cognito Documentation |
+| Wed | - Analyze custom authentication flows (Define Auth Challenge, Create Auth Challenge, Verify Auth Challenge Response) | 06/03/2026 | 06/03/2026 | Cognito Documentation |
+| Thu | - Map custom claims into JWT access tokens to support complex platform roles <br> - Understand token anatomy, verifying payload signatures against target JWKS endpoints | 06/04/2026 | 06/04/2026 | Cognito Documentation |
+| Fri | - Build structural sequence flows outlining signup verification states for customers and merchants <br> - Conduct technical walkthroughs with team leads on the chosen identity approach | 06/05/2026 | 06/05/2026 | Company office |
+
+---
 
 ### Week 7 Achievements:
 
-- Defined the initial direction of the internship project and clarified the main system goals.
+#### 1. Enterprise Identity Architecture
+* Acquired an advanced operational understanding of **Amazon Cognito**, focusing on secure account onboarding, data separation, and sign-in operations.
+* Developed sequence workflows for phone-number-based, passwordless authentication utilizing custom text-delivery challenges.
 
-- Identified the main users and basic functional requirements of the system.
-
-- Researched several AWS services that may be used in the project, including:
-  - Amazon S3
-  - Amazon DynamoDB
-  - AWS Lambda
-  - Amazon API Gateway
-  - Amazon Cognito
-  - Amazon CloudWatch
-  - ...
-
-- Understood the basic role of each AWS service in a serverless application architecture.
-
-- Analyzed the main system workflows, including:
-  - User registration and authentication
-  - Merchant/store registration
-  - Product or service management
-  - Order creation
-  - Payment processing
-  - Transaction and bill history
-
-- Discussed the feasibility of the project based on technical scope, available time, and team capacity.
-
-- Identified the features that should be prioritized for the MVP version.
-
-- Assigned research tasks among team members to prepare for system architecture design and implementation in the following weeks.
-
-- Completed project research notes and prepared the foundation for the next phase of development.
+#### 2. Token-Based Security Frameworks
+* Mastered **JSON Web Token (JWT)** anatomy (`id_token`, `access_token`, `refresh_token`), including cryptography signature enforcement routines.
+* Designed the logical structural schema for embedding access claims into tokens to streamline Role-Based Access Control (RBAC).

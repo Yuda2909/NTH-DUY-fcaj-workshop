@@ -6,55 +6,30 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
----
-
 ### Mục tiêu tuần 7:
-
-- Bắt đầu nghiên cứu đề tài dự án thực tập và xác định các yêu cầu chính của hệ thống.
-- Tìm hiểu các dịch vụ AWS phù hợp với định hướng triển khai dự án.
-- Phân tích các luồng hoạt động chính và luồng nghiệp vụ của hệ thống.
-- Thảo luận về tính khả thi, phạm vi kỹ thuật và hướng triển khai dự án.
-- Phân công nhiệm vụ nghiên cứu cho các thành viên trong nhóm để chuẩn bị cho các giai đoạn tiếp theo.
+- Nghiên cứu kiến trúc quản lý định danh người dùng, dịch vụ thư mục liên kết và vòng đời của mã token bảo mật.
+- Tìm hiểu sâu về dịch vụ Amazon Cognito User Pools và Amazon Cognito Identity Pools.
+- Lên sơ đồ yêu cầu bảo mật đa người thuê (Multi-tenant) và quy trình đăng ký tài khoản cho AWS BILLO.
+- Tìm hiểu chuẩn xác thực OAuth 2.0 và quy trình xác minh chữ ký mã token JSON Web Token (JWT).
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                                                | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | --------------------------------------- |
-| 2   | - Xem lại yêu cầu của đề tài thực tập <br> - Thảo luận ý tưởng ban đầu và kết quả mong muốn của hệ thống <br> - Xác định các nhóm người dùng chính và các chức năng cốt lõi của hệ thống                                                                                 | 01/06/2026   | 01/06/2026      |                                         |
-| 3   | - Nghiên cứu các dịch vụ AWS có thể phù hợp với dự án <br>  + Amazon S3 <br>  + Amazon DynamoDB <br>  + AWS Lambda <br>  + Amazon API Gateway <br>  + Amazon Cognito <br> - Ghi chú vai trò của từng dịch vụ trong hệ thống                                              | 02/06/2026   | 02/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Phân tích các luồng hoạt động chính của hệ thống <br>  + Luồng đăng ký và đăng nhập người dùng <br>  + Luồng đăng ký cửa hàng/chủ kinh doanh <br>  + Luồng quản lý sản phẩm hoặc dịch vụ <br>  + Luồng tạo đơn hàng và thanh toán <br> - Phác thảo ghi chú về workflow | 03/06/2026   | 03/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Đánh giá tính khả thi của dự án <br> - Thảo luận các thách thức kỹ thuật như lưu trữ dữ liệu, xác thực người dùng, thiết kế API và xử lý nghiệp vụ <br> - Xác định các chức năng nên ưu tiên cho phiên bản MVP                                                         | 04/06/2026   | 04/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Phân công nhiệm vụ nghiên cứu cho các thành viên trong nhóm <br> - Tổng hợp định hướng kiến trúc AWS dự kiến cho dự án <br> - Chuẩn bị ghi chú cho giai đoạn thiết kế và triển khai tiếp theo                                                                          | 05/06/2026   | 05/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | - Làm việc trực tiếp tại văn phòng công ty <br> - Tham gia các buổi đánh giá cấu trúc về bảo mật truy cập, thời gian hết hạn phiên làm việc và thuộc tính tùy chỉnh (Custom Attributes) | 01/06/2026 | 01/06/2026 | Văn phòng công ty |
+| 3 | - Nghiên cứu sâu cấu hình của Amazon Cognito User Pools: thuộc tính người dùng, chính sách mật khẩu phức tạp và cấu hình MFA | 02/06/2026 | 02/06/2026 | Tài liệu Cognito |
+| 4 | - Phân tích các luồng xác thực tùy chỉnh nâng cao (Define Auth Challenge, Create Auth Challenge, Verify Auth Challenge Response) | 03/06/2026 | 03/06/2026 | Tài liệu Cognito |
+| 5 | - Học cách nhúng các thông tin phân quyền tùy chỉnh (Custom Claims) vào trong mã JWT Access Token phục vụ phân quyền <br> - Tìm hiểu giải phẫu một mã token, cơ chế xác thực chữ ký số dựa trên các endpoint JWKS công khai | 04/06/2026 | 04/06/2026 | Tài liệu Cognito |
+| 6 | - Xây dựng sơ đồ tuần tự (Sequence Diagram) mô tả các trạng thái đăng ký và xác thực cho khách hàng và đối tác <br> - Thảo luận và thống nhất phương án thiết kế hệ thống định danh với Technical Lead | 05/06/2026 | 05/06/2026 | Văn phòng công ty |
+
+---
 
 ### Kết quả đạt được tuần 7:
 
-- Xác định được định hướng ban đầu của đề tài thực tập và làm rõ mục tiêu chính của hệ thống.
+#### 1. Kiến trúc quản lý định danh chuyên nghiệp
+* Tiếp thu kiến thức nâng cao về **Amazon Cognito**, tập trung vào việc đăng ký tài khoản an toàn, phân tách dữ liệu người dùng và các thao tác đăng nhập không mật khẩu.
+* Xây dựng thành công các sơ đồ logic cho luồng đăng nhập bằng số điện thoại, sử dụng mã OTP qua tin nhắn SMS thông qua việc cấu hình các thử thách xác thực tùy chỉnh (Custom Auth Challenges).
 
-- Xác định được các nhóm người dùng chính và các yêu cầu chức năng cơ bản.
-
-- Đã nghiên cứu một số dịch vụ AWS có thể sử dụng trong dự án, bao gồm:
-  - Amazon S3
-  - Amazon DynamoDB
-  - AWS Lambda
-  - Amazon API Gateway
-  - Amazon Cognito
-  - Amazon CloudWatch
-  - ...
-
-- Hiểu vai trò cơ bản của từng dịch vụ AWS trong kiến trúc ứng dụng serverless.
-
-- Phân tích được các luồng hoạt động chính của hệ thống:
-  - Đăng ký và xác thực người dùng
-  - Đăng ký cửa hàng/chủ kinh doanh
-  - Quản lý sản phẩm hoặc dịch vụ
-  - Tạo đơn hàng
-  - Xử lý thanh toán
-  - Lưu lịch sử giao dịch và hóa đơn
-
-- Thảo luận và đánh giá tính khả thi của dự án dựa trên phạm vi kỹ thuật, thời gian thực hiện và năng lực của nhóm.
-
-- Xác định được các chức năng cần ưu tiên trong phiên bản MVP.
-
-- Phân công nhiệm vụ nghiên cứu cho các thành viên trong nhóm để chuẩn bị cho giai đoạn thiết kế kiến trúc và triển khai ở các tuần tiếp theo.
-
-- Hoàn thành ghi chú nghiên cứu dự án và chuẩn bị nền tảng cho giai đoạn phát triển tiếp theo.
+#### 2. Khung bảo mật dựa trên Token (Token-Based)
+* Làm chủ cấu trúc các loại mã **JSON Web Token (JWT)** gồm `id_token`, `access_token`, và `refresh_token`, bao gồm cả các quy trình kiểm tra chữ ký mật mã học.
+* Thiết kế thành công cấu trúc dữ liệu nhúng các phân quyền vai trò (Access Claims) vào token, tạo tiền đề cho việc phân quyền dựa trên vai trò (RBAC) một cách gọn nhẹ, mượt mà.

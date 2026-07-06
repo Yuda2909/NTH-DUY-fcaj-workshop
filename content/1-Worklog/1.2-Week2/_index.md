@@ -1,61 +1,36 @@
 ---
-title: "Week 2 Worklog"
+title: "Worklog Week 2"
 date: 2026-04-27
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
----
-
 ### Week 2 Objectives:
-
-- Understand basic account management and access control on AWS.
-- Learn how to create and manage IAM users, groups, and permissions.
-- Understand how to create an AWS Support case when facing technical or account-related issues.
-- Learn how to configure AWS Budgets to monitor cloud usage and control costs.
-- Understand the basic concepts of Amazon VPC and VPN connection.
+- Research core AWS Compute and Storage services required for a serverless paradigm.
+- Master the fundamentals of AWS Lambda and its execution lifecycles.
+- Understand Amazon S3 architecture, bucket policies, and asset management patterns.
+- Implement practical sandbox proofs-of-concept (PoC) using the AWS Console.
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                                                                            | Start Date | Completion Date | Reference Material                      |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Review the basic AWS account setup from Week 1 <br> - Learn about AWS Identity and Access Management (IAM) <br> - Understand the difference between root account, IAM user, IAM group, and IAM policy                                                         | 27/04/2026 | 27/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Learn how to create an admin user and admin group <br> - Learn how to assign permissions to IAM users and groups <br> - **Practice:** <br>  + Create an IAM admin group <br>  + Create an IAM admin user <br>  + Attach administrator permission to the group | 28/04/2026 | 28/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Learn about AWS Support and support plans <br> - Learn when and how to create a support case <br> - **Practice:** <br>  + Explore AWS Support Center <br>  + Create a basic support case or review the support case creation process                          | 29/04/2026 | 29/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Learn about AWS Budgets and cost control <br> - Learn how to monitor AWS Free Tier usage <br> - **Practice:** <br>  + Create a monthly cost budget <br>  + Configure budget alerts <br>  + Review the billing dashboard                                       | 30/04/2026 | 30/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Learn basic Amazon VPC concepts: <br>  + VPC <br>  + Subnet <br>  + Route Table <br>  + Internet Gateway <br>  + Security Group <br> - Learn the basic concept of VPN connection on AWS <br> - Take notes on VPC and VPN use cases                            | 01/05/2026 | 01/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :--- | :--- | :--- | :--- | :--- |
+| Mon | - Work on-site at the company office <br> - Participate in technical alignment meetings regarding microservice vs. serverless design paradigms for the BILLO backend | 04/27/2026 | 04/27/2026 | Company office |
+| Tue | - Deep-dive into AWS Lambda core mechanics (execution context, cold starts, IAM roles) <br> - Write and test basic Node.js Lambda handlers directly inside the AWS Console | 04/28/2026 | 04/28/2026 | https://cloudjourney.awsstudygroup.com/ |
+| Wed | - Study Amazon Simple Storage Service (S3) architecture and storage classes <br> - Practice creating S3 buckets, uploading objects, and managing public/private access settings | 04/29/2026 | 04/29/2026 | https://cloudjourney.awsstudygroup.com/ |
+| Thu | - Configure secure S3 Bucket Policies and Cross-Origin Resource Sharing (CORS) rule structures <br> - Set up a practical trigger connecting an S3 bucket upload to an automated Lambda function | 04/30/2026 | 04/30/2026 | https://cloudjourney.awsstudygroup.com/ |
+| Fri | - Test event-driven execution flows by analyzing logs generated during automated triggers <br> - Document performance characteristics and findings for the serverless storage stack | 05/01/2026 | 05/01/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Week 2 Achievements:
 
-- Understood the role of AWS Identity and Access Management (IAM) in controlling access to AWS resources.
+#### 1. Serverless Compute Mechanics
+* Mastered the operational lifecycle of **AWS Lambda**, including trigger bindings, timeout behaviors, and execution roles.
+* Successfully built sandbox Lambda handlers capable of processing incoming JSON event payloads and returning structured responses.
 
-- Learned the difference between:
-  - Root account
-  - IAM user
-  - IAM group
-  - IAM policy
-  - Permission
-
-- Successfully practiced creating an IAM admin group and IAM admin user.
-
-- Understood how permissions are assigned to users through IAM groups and policies.
-
-- Became familiar with AWS Support Center and learned the process of creating a support case when encountering account or technical issues.
-
-- Learned how AWS Budgets can help monitor service usage and control costs during hands-on labs.
-
-- Created a simple budget and configured budget alerts to avoid unexpected AWS charges.
-
-- Understood the basic concepts of Amazon VPC, including:
-  - VPC
-  - Subnet
-  - Route Table
-  - Internet Gateway
-  - Security Group
-  - Network ACL
-  - ...
-
-- Learned the basic purpose of VPN connection in connecting private networks securely.
-
-- Completed basic labs related to IAM, AWS Support, AWS Budgets, and VPC/VPN preparation.
+#### 2. Cloud Storage Mastery & Event-Driven Flows
+* Acquired a thorough understanding of **Amazon S3** object storage structures, resource access control lists (ACLs), and bucket permissions.
+* Engineered an event-driven automation loop: uploading a file to an S3 object path securely triggers an asynchronous AWS Lambda function invocation.
+* Formulated clean, restrictive CORS configurations to prevent unauthorized client domains from polling sensitive cloud resources.

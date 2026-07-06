@@ -6,56 +6,31 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
----
-
 ### Mục tiêu tuần 2:
-
-- Hiểu cách quản lý tài khoản và phân quyền truy cập cơ bản trên AWS.
-- Tìm hiểu cách tạo và quản lý IAM user, IAM group và permission.
-- Hiểu cách tạo AWS Support case khi gặp lỗi kỹ thuật hoặc vấn đề liên quan đến tài khoản.
-- Biết cách cấu hình AWS Budgets để theo dõi mức sử dụng dịch vụ và kiểm soát chi phí.
-- Nắm được khái niệm cơ bản về Amazon VPC và kết nối VPN.
+- Nghiên cứu các dịch vụ tính toán (Compute) và lưu trữ (Storage) cốt lõi của AWS cho mô hình Serverless.
+- Làm chủ cơ chế vận hành và vòng đời thực thi (Lifecycle) của AWS Lambda.
+- Hiểu rõ kiến trúc Amazon S3, chính sách phân quyền bucket (Bucket Policy) và các mô hình quản lý tài sản số.
+- Triển khai các bản thử nghiệm thực tế (Proof-of-Concept - PoC) trực tiếp trên AWS Console.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | --------------------------------------- |
-| 2   | - Ôn lại phần thiết lập tài khoản AWS cơ bản ở tuần 1 <br> - Tìm hiểu AWS Identity and Access Management (IAM) <br> - Phân biệt root account, IAM user, IAM group và IAM policy                                                                  | 27/04/2026   | 27/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Tìm hiểu cách tạo admin user và admin group <br> - Tìm hiểu cách gán quyền cho IAM user và IAM group <br> - **Thực hành:** <br>  + Tạo IAM admin group <br>  + Tạo IAM admin user <br>  + Gán quyền administrator cho group                    | 28/04/2026   | 28/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tìm hiểu AWS Support và các gói hỗ trợ của AWS <br> - Tìm hiểu khi nào cần tạo support case <br> - **Thực hành:** <br>  + Truy cập AWS Support Center <br>  + Tìm hiểu quy trình tạo support case cơ bản                                       | 29/04/2026   | 29/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tìm hiểu AWS Budgets và cách kiểm soát chi phí <br> - Tìm hiểu cách theo dõi mức sử dụng AWS Free Tier <br> - **Thực hành:** <br>  + Tạo monthly cost budget <br>  + Cấu hình cảnh báo ngân sách <br>  + Kiểm tra billing dashboard            | 30/04/2026   | 30/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu các khái niệm cơ bản của Amazon VPC: <br>  + VPC <br>  + Subnet <br>  + Route Table <br>  + Internet Gateway <br>  + Security Group <br> - Tìm hiểu khái niệm cơ bản về VPN trên AWS <br> - Ghi chú các trường hợp sử dụng VPC và VPN | 01/05/2026   | 01/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | - Làm việc trực tiếp tại văn phòng công ty <br> - Tham gia họp kỹ thuật thảo luận về mô hình kiến trúc Microservices so với Serverless cho hệ thống backend BILLO | 27/04/2026 | 27/04/2026 | Văn phòng công ty |
+| 3 | - Đi sâu vào cơ chế cốt lõi của AWS Lambda (Execution Context, Cold Start, IAM Execution Role) <br> - Viết và kiểm thử các hàm Lambda Node.js cơ bản trực tiếp trên môi trường mã nguồn của AWS Console | 28/04/2026 | 28/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Nghiên cứu kiến trúc Amazon Simple Storage Service (S3) và các phân lớp lưu trữ (Storage Classes) <br> - Thực hành tạo S3 bucket, tải đối tượng lên và cấu hình quyền truy cập công khai/riêng tư | 29/04/2026 | 29/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Cấu hình các quy tắc bảo mật nâng cao cho S3 Bucket Policies và chia sẻ tài nguyên đa miền (CORS) <br> - Thiết lập cơ chế kích hoạt tự động (Trigger) kết nối một sự kiện tải file lên S3 với một hàm Lambda | 30/04/2026 | 30/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Kiểm thử luồng xử lý hướng sự kiện (Event-driven) bằng cách phân tích log chi tiết sinh ra trong CloudWatch <br> - Tổng hợp tài liệu về đặc tính hiệu năng và các điểm lưu ý đối với hạ tầng lưu trữ serverless | 01/05/2026 | 01/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Kết quả đạt được tuần 2:
 
-- Hiểu được vai trò của AWS Identity and Access Management (IAM) trong việc kiểm soát quyền truy cập tài nguyên AWS.
+#### 1. Cơ chế tính toán Serverless
+* Làm chủ vòng đời vận hành của **AWS Lambda**, bao gồm các liên kết trigger kích hoạt, cấu hình thời gian chạy tối đa (Timeout) và phân quyền vai trò thực thi.
+* Xây dựng thành công các hàm Lambda xử lý dữ liệu đầu vào dạng JSON và trả về các phản hồi có cấu trúc theo chuẩn API.
 
-- Phân biệt được các thành phần cơ bản trong IAM:
-  - Root account
-  - IAM user
-  - IAM group
-  - IAM policy
-  - Permission
-
-- Đã thực hành tạo IAM admin group và IAM admin user.
-
-- Hiểu cách gán quyền cho user thông qua IAM group và IAM policy.
-
-- Làm quen với AWS Support Center và nắm được quy trình tạo support case khi gặp vấn đề về tài khoản hoặc kỹ thuật.
-
-- Hiểu cách AWS Budgets hỗ trợ theo dõi chi phí và kiểm soát mức sử dụng dịch vụ trong quá trình thực hành lab.
-
-- Đã tạo budget cơ bản và cấu hình cảnh báo ngân sách để hạn chế phát sinh chi phí ngoài dự kiến.
-
-- Nắm được các khái niệm cơ bản của Amazon VPC:
-  - VPC
-  - Subnet
-  - Route Table
-  - Internet Gateway
-  - Security Group
-  - Network ACL
-  - ...
-
-- Hiểu vai trò cơ bản của VPN trong việc kết nối bảo mật giữa các hệ thống mạng riêng.
-
-- Hoàn thành các bài lab cơ bản liên quan đến IAM, AWS Support, AWS Budgets và bước đầu làm quen với VPC/VPN.
+#### 2. Quản lý lưu trữ đám mây & Kiến trúc hướng sự kiện
+* Tiếp thu sâu sắc kiến trúc lưu trữ đối tượng của **Amazon S3**, danh sách kiểm soát truy cập tài nguyên (ACLs) và quyền hạn trên bucket.
+* Thiết lập thành công một vòng lặp tự động hướng sự kiện: hành động tải một tệp tin lên đường dẫn S3 được bảo mật sẽ tự động kích hoạt một hàm AWS Lambda xử lý bất đồng bộ ở phía sau.
+* Thiết lập cấu hình các quy tắc CORS thắt chặt, ngăn chặn hiệu quả các tên miền client không hợp lệ cố tình gọi đến tài nguyên hệ thống.

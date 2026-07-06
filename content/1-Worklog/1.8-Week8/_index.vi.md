@@ -6,69 +6,30 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
----
-
 ### Mục tiêu tuần 8:
-
-- Phân tích đề tài AWS BILLO: ví điện tử kết hợp POS và quản lý cửa tiệm.
-- Xác định các vai trò chính trong hệ thống gồm Customer, Merchant và Admin.
-- Xác định phạm vi MVP và các yêu cầu chức năng cốt lõi.
-- Phân tích user flow, business flow và yêu cầu dữ liệu của hệ thống.
-- Nghiên cứu các dịch vụ AWS phù hợp với kiến trúc serverless tối ưu chi phí.
-- Thiết kế kiến trúc hệ thống ban đầu, wireframe và luồng nghiệp vụ cho dự án.
+- Hoàn thiện sơ đồ kiến trúc tổng thể cốt lõi cho môi trường phát triển dự án AWS BILLO.
+- Thiết lập các đặc tả giao tiếp chuẩn hóa giữa các thành phần hệ thống (API Contracts).
+- Khởi tạo các kho lưu trữ mã nguồn khung (Boilerplate Repositories) và thống nhất các pattern viết code sạch.
+- Hoàn tất toàn bộ các điều kiện tiên quyết trước khi bước vào giai đoạn code hệ thống trên diện rộng.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                                                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Phân tích đề tài AWS BILLO <br> - Xác định mục tiêu chính của hệ thống: ví điện tử, xem trước biên lai điện tử, POS cho cửa tiệm và quản lý cửa hàng <br> - Xác định ba vai trò chính: <br>  + Customer <br>  + Merchant <br>  + Admin                                                                                         | 08/06/2026   | 08/06/2026      |                                         |
-| 3   | - Xác định phạm vi MVP và yêu cầu chức năng <br> - Phân tích các chức năng chính của Customer: <br>  + Đăng ký và đăng nhập <br>  + Xem số dư ví <br>  + Chuyển tiền <br>  + Thanh toán QR <br>  + Lịch sử giao dịch và hóa đơn <br> - Phân tích yêu cầu của Merchant và Admin                                                   | 09/06/2026   | 09/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Phân tích luồng xác thực và phân quyền: <br>  + Đăng ký bằng số điện thoại <br>  + Xác thực OTP <br>  + Đăng nhập và đăng xuất <br>  + Phân quyền theo vai trò <br> - Phân tích quy trình đăng ký và phê duyệt kinh doanh <br> - Phác thảo user flow và business flow                                                          | 10/06/2026   | 10/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Phân tích luồng quản lý cửa hàng của Merchant: <br>  + Quản lý thông tin cửa hàng <br>  + Quản lý sản phẩm/dịch vụ <br>  + Quản lý bàn <br>  + Tạo order <br>  + Thanh toán bằng QR <br> - Nghiên cứu cấu trúc dữ liệu cho biên lai điện tử và chi tiết đơn hàng                                                               | 11/06/2026   | 11/06/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Nghiên cứu các dịch vụ AWS phù hợp với hệ thống: <br>  + Amazon Cognito <br>  + AWS Lambda <br>  + Amazon API Gateway <br>  + Amazon DynamoDB <br>  + Amazon S3 <br>  + Amazon CloudWatch <br> - So sánh kiến trúc serverless với kiến trúc sử dụng EC2/VPC <br> - Phác thảo kiến trúc AWS tổng thể và tổng hợp hướng thiết kế | 12/06/2026   | 12/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | - Làm việc trực tiếp tại văn phòng công ty <br> - Thống nhất và chốt sơ đồ kiến trúc hệ thống tổng thể với các kỹ sư trưởng của dự án | 08/06/2026 | 08/06/2026 | Văn phòng công ty |
+| 3 | - Soạn thảo chi tiết các endpoint API, cấu trúc request schema, mã trạng thái phản hồi và dữ liệu mẫu qua chuẩn OpenAPI/Swagger | 09/06/2026 | 09/06/2026 | Tài liệu nội bộ |
+| 4 | - Đánh giá các giải pháp đảm bảo an toàn giao dịch tài chính thông qua cơ chế thử lại (API Retries) và tầng kiểm soát trùng lặp dữ liệu (Idempotency) <br> - Phân định quyền hạn cho từng cụm Lambda truy cập vào các phân vùng dữ liệu riêng biệt | 10/06/2026 | 10/06/2026 | Tài liệu nội bộ |
+| 5 | - Quy định cấu trúc tổ chức code mã nguồn cho Node.js backend (Layered Architecture: Controller-Service-Repository) <br> - Quy định cấu trúc thư mục cho dự án Flutter (phương pháp tiếp cận Feature-first hoặc Layer-first) | 11/06/2026 | 11/06/2026 | Sách hướng dẫn Flutter & Node.js |
+| 6 | - Đóng gói toàn bộ tài liệu kiến trúc, sơ đồ mạng lưới và từ điển dữ liệu vào không gian tri thức chung của nhóm (Wiki) <br> - Rà soát lại mức độ sẵn sàng của các tài khoản cloud trước khi bước vào sprint code | 12/06/2026 | 12/06/2026 | Văn phòng công ty |
+
+---
 
 ### Kết quả đạt được tuần 8:
 
-- Hoàn thành phân tích ban đầu về đề tài AWS BILLO và làm rõ định hướng của hệ thống.
+#### 1. Hoàn thiện thiết kế hệ thống tổng thể
+* Hoàn thành sơ đồ thiết kế hệ thống nhiều lớp cho hệ sinh thái **AWS BILLO**, xác định rõ ràng ranh giới cô lập giữa các thành phần client và hệ thống xử lý backend.
+* Viết thành công bộ **Hợp đồng API (API Contracts) theo chuẩn OpenAPI/Swagger**, triệt tiêu hoàn toàn các rủi ro không khớp dữ liệu giữa các lập trình viên làm client-side và data controller.
 
-- Xác định được ba vai trò chính trong hệ thống:
-  - Customer
-  - Merchant
-  - Admin
-
-- Xác định phạm vi MVP và các chức năng cần ưu tiên trong phiên bản đầu tiên của dự án.
-
-- Phân tích các chức năng chính của Customer:
-  - Đăng ký và đăng nhập tài khoản
-  - Xem số dư ví
-  - Chuyển tiền
-  - Thanh toán QR
-  - Xem lịch sử giao dịch
-  - Xem trước biên lai điện tử
-
-- Phân tích các chức năng chính của Merchant:
-  - Đăng ký kinh doanh
-  - Quản lý thông tin cửa hàng
-  - Quản lý sản phẩm hoặc dịch vụ
-  - Quản lý bàn
-  - Tạo order
-  - Hỗ trợ thanh toán bằng QR
-
-- Phân tích các chức năng chính của Admin:
-  - Kiểm tra hồ sơ đăng ký kinh doanh
-  - Duyệt hoặc từ chối hồ sơ Merchant
-  - Quản lý vai trò người dùng và quyền truy cập của Merchant
-
-- Hoàn thành user flow và business flow ban đầu cho các luồng đăng ký, xác thực, phê duyệt kinh doanh, quản lý cửa hàng, tạo order và thanh toán QR.
-
-- Nghiên cứu các dịch vụ AWS phù hợp với hệ thống, bao gồm:
-  - Amazon Cognito cho xác thực và quản lý nhóm người dùng
-  - AWS Lambda cho xử lý logic nghiệp vụ
-  - Amazon API Gateway cho quản lý API
-  - Amazon DynamoDB cho lưu trữ dữ liệu NoSQL
-  - Amazon S3 cho lưu trữ hình ảnh và tài liệu
-  - Amazon CloudWatch cho ghi log và giám sát
-
-- So sánh kiến trúc serverless với kiến trúc sử dụng EC2/VPC và lựa chọn hướng serverless tối giản để tối ưu chi phí cho MVP.
-
-- Hoàn thành thiết kế kiến trúc AWS ban đầu, ghi chú wireframe, user flow và business flow để chuẩn bị cho giai đoạn triển khai ở các tuần tiếp theo.
+#### 2. Đồng bộ Pattern thiết kế & Cấu trúc mã nguồn
+* Thống nhất thành công kiến trúc mã nguồn sạch cho toàn dự án (Mô hình Controller-Service-Repository cho các module backend; phân tách theo Tính năng - Feature-driven cho các thư mục mã nguồn Flutter).
+* Tài liệu hóa thành công giải pháp kỹ thuật cụ thể cho việc xử lý an toàn tài chính, áp dụng cơ chế băm chuỗi token (Request Hashing) độc nhất để ép hệ thống tuân thủ tính nhất quán (Idempotency).

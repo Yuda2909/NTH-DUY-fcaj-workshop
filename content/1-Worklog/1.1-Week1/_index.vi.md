@@ -6,66 +6,33 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
----
-
 ### Mục tiêu tuần 1:
-
-- Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-- Hiểu nội quy, quy định và quy trình làm việc tại đơn vị thực tập.
-- Nắm được khái niệm cơ bản về điện toán đám mây và Amazon Web Services.
-- Hiểu các nhóm dịch vụ AWS cơ bản, cách sử dụng AWS Management Console và AWS CLI.
-- Tạo tài khoản AWS Free Tier và thực hiện một số bài lab đơn giản để làm quen với AWS.
+- Kết nối, làm quen với các thành viên trong nhóm nội bộ và Mentor hướng dẫn dự án.
+- Nắm rõ các quy định làm việc, giao thức bảo mật và quy trình vận hành của công ty.
+- Nghiên cứu tài liệu tổng quan ban đầu (Project Brief) của nền tảng AWS BILLO.
+- Khởi tạo môi trường phát triển tại local, bao gồm các công cụ lập trình và giao diện đám mây cơ bản.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                                                            | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | --------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Tìm hiểu môi trường thực tập và quy trình làm việc <br> - Đọc và ghi chú các nội quy, quy định tại đơn vị thực tập                                                                                                                         | 20/04/2026   | 20/04/2026      |                                         |
-| 3   | - Tìm hiểu khái niệm về AWS và điện toán đám mây <br>  + Điện toán đám mây là gì? <br>  + Lợi ích của AWS <br>  + Các nhóm dịch vụ AWS cơ bản <br> - Xem tổng quan lộ trình học của First Cloud Journey                                                                              | 21/04/2026   | 21/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tìm hiểu các nhóm dịch vụ AWS cơ bản: <br>  + Compute <br>  + Storage <br>  + Networking <br>  + Database <br>  + Security <br>  + Monitoring <br> - Ghi chú các trường hợp sử dụng phổ biến của từng nhóm dịch vụ                                                                 | 22/04/2026   | 22/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Management Console <br> - Tìm hiểu các thiết lập cơ bản của tài khoản, region và billing dashboard <br> - **Thực hành:** <br>  + Tạo AWS account <br>  + Đăng nhập AWS Console <br>  + Khám phá các dịch vụ AWS cơ bản               | 23/04/2026   | 23/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu AWS CLI và vai trò của CLI trong việc quản lý tài nguyên AWS <br> - Cài đặt và cấu hình AWS CLI trên máy tính <br> - **Thực hành:** <br>  + Cấu hình Access Key và Secret Key <br>  + Thiết lập region mặc định và output format <br>  + Chạy các câu lệnh AWS CLI cơ bản | 24/04/2026   | 24/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | - Làm việc trực tiếp tại văn phòng công ty, gặp gỡ các thành viên và Mentor dự án <br> - Đọc và ký kết các quy định nội bộ, thỏa thuận bảo mật (NDA) và chính sách tuân thủ an toàn thông tin | 20/04/2026 | 20/04/2026 | Văn phòng công ty |
+| 3 | - Tiếp cận kho lưu trữ mã nguồn (Repository) và đọc tài liệu yêu cầu hệ thống ban đầu của AWS BILLO <br> - Nghiên cứu đối tượng người dùng mục tiêu (Customer, Merchant) và các luồng nghiệp vụ cốt lõi | 21/04/2026 | 21/04/2026 | Tài liệu nội bộ |
+| 4 | - Tạo tài khoản AWS Free Tier dành riêng cho việc phát triển cá nhân và thử nghiệm sandbox <br> - Cài đặt và cấu hình AWS Command Line Interface (CLI) trên máy tính cá nhân | 22/04/2026 | 22/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Khởi tạo không gian làm việc local, cài đặt các tài nguyên phụ thuộc (Flutter SDK, Node.js runtime, Git, VS Code) <br> - Kiểm thử việc tạo người dùng IAM với quyền quản trị và quyền truy cập lập trình (Programmatic Access) | 23/04/2026 | 23/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Xác thực thông tin cấu hình local bằng cách chạy các lệnh kiểm tra cơ bản trên AWS CLI <br> - Tài liệu hóa tài liệu hướng dẫn cấu hình môi trường để đồng bộ hóa trong nhóm | 24/04/2026 | 24/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Kết quả đạt được tuần 1:
 
-- Đã làm quen với các thành viên FCAJ, môi trường thực tập và quy trình làm việc chung.
+#### 1. Hòa nhập văn hóa & Quy trình làm việc
+* Tích hợp thành công vào đội ngũ kỹ thuật và thiết lập kênh giao tiếp rõ ràng với Mentor hướng dẫn dự án.
+* Hiểu rõ các tiêu chuẩn quản lý mã nguồn, quy trình vận hành nội bộ và các yêu cầu bảo mật an ninh mạng của công ty.
 
-- Hiểu được nội quy, quy định và yêu cầu báo cáo công việc hằng tuần tại đơn vị thực tập.
-
-- Hiểu AWS là gì và nắm được vai trò cơ bản của điện toán đám mây trong việc triển khai, quản lý hệ thống.
-
-- Nắm được các nhóm dịch vụ AWS cơ bản:
-  - Compute
-  - Storage
-  - Networking
-  - Database
-  - Security
-  - Monitoring
-  - ...
-
-- Đã tạo và cấu hình AWS Free Tier account thành công.
-
-- Làm quen với AWS Management Console và biết cách:
-  - Tìm kiếm dịch vụ AWS
-  - Truy cập dashboard của từng dịch vụ
-  - Chuyển đổi region
-  - Kiểm tra thông tin tài khoản
-  - Xem thông tin billing và Free Tier usage
-
-- Hiểu được cách kiểm soát chi phí cơ bản khi sử dụng AWS Free Tier.
-
-- Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  - Access Key
-  - Secret Key
-  - Region mặc định
-  - Output format
-  - ...
-
-- Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-  - Kiểm tra thông tin tài khoản và cấu hình
-  - Kiểm tra kết nối giữa AWS CLI và AWS account
-  - Xem thông tin cơ bản của các dịch vụ AWS
-  - Làm quen với các câu lệnh AWS CLI thông dụng
-  - ...
-
-- Hoàn thành một số bài lab đơn giản ở mức cơ bản để làm quen với AWS và chuẩn bị cho các nội dung nâng cao ở những tuần tiếp theo.
+#### 2. Thiết lập công cụ & Môi trường điện toán đám mây
+* Khởi tạo thành công không gian làm việc AWS Free Tier với các thông tin xác thực IAM được phân quyền chặt chẽ, tuân thủ nguyên tắc đặc quyền tối thiểu (PoLP).
+* Cài đặt và xác thực thành công môi trường AWS CLI v2 trên máy local với:
+    * Liên kết thành công bộ mã `Access Key ID` và `Secret Access Key`.
+    * Chỉ định phân vùng mặc định hướng tới region Singapore (`ap-southeast-1`).
+* Setup sạch sẽ không gian máy tính cá nhân gồm Flutter SDK (nhánh stable) và Node.js LTS, đảm bảo các runtime đồng bộ với môi trường production sau này.

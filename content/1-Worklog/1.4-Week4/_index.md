@@ -1,63 +1,35 @@
 ---
-title: "Week 4 Worklog"
+title: "Worklog Week 4"
 date: 2026-05-11
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
----
-
 ### Week 4 Objectives:
-
-- Understand the basic concepts of AWS compute and storage services.
-- Learn the core components of Amazon EC2, including instance types, AMI, key pairs, security groups, and EBS volumes.
-- Learn about AWS storage services such as Amazon EFS and Amazon FSx.
-- Understand the basic purpose of AWS Application Migration Service (AWS MGN).
-- Learn how EC2 Auto Scaling helps improve system availability and scalability.
+- Deep-dive into secure networking concepts using Amazon VPC (Virtual Private Cloud).
+- Understand Subnets, Internet Gateways, NAT Gateways, Route Tables, and Security Groups.
+- Research modern Flutter application design architecture and native state management frameworks.
+- Prepare structural requirements for integrating Flutter cross-platform applications with remote backends.
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                                                                 | Start Date | Completion Date | Reference Material                      |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Learn basic Amazon EC2 concepts <br>  + EC2 instance <br>  + AMI <br>  + Instance type <br>  + Key pair <br>  + Security Group <br> - Understand common EC2 use cases for running virtual servers on AWS                                           | 11/05/2026 | 11/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Learn about EC2 storage options <br>  + Amazon EBS <br>  + EBS volume types <br>  + Snapshot <br> - Learn how EBS is attached to EC2 instances <br> - Take notes on the relationship between EC2 and EBS                                           | 12/05/2026 | 12/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Learn about shared storage services on AWS <br>  + Amazon EFS <br>  + Amazon FSx <br> - Compare basic use cases between EBS, EFS, and FSx <br> - Understand when shared file storage is needed in cloud architecture                               | 13/05/2026 | 13/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Learn about AWS Application Migration Service (AWS MGN) <br> - Understand the basic idea of migrating servers and workloads to AWS <br> - Take notes on migration concepts such as source server, replication, cutover, and testing                | 14/05/2026 | 14/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Learn about EC2 Auto Scaling <br>  + Launch Template <br>  + Auto Scaling Group <br>  + Scaling policy <br> - Understand how Auto Scaling supports high availability and cost optimization <br> - Review and summarize the week’s learning content | 15/05/2026 | 15/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :--- | :--- | :--- | :--- | :--- |
+| Mon | - Work on-site at the company office <br> - Present isolated networking proposals for enterprise client connections and secure backend microservices | 05/11/2026 | 05/11/2026 | Company office |
+| Tue | - Study Amazon VPC structural anatomy: isolate public subnets from private compute subnets <br> - Practice configuring Network Access Control Lists (NACLs) and inbound/outbound Security Groups | 05/12/2026 | 05/12/2026 | https://cloudjourney.awsstudygroup.com/ |
+| Wed | - Review Flutter state management alternatives (Bloc, Provider, Riverpod) <br> - Build a clean interface mockup containing user registration screens and text entry validations | 05/13/2026 | 05/13/2026 | Flutter Documentation |
+| Thu | - Research networking models in Flutter using `dio` and `http` abstract client packages <br> - Implement client-side exception handling layers for flaky network scenarios | 05/14/2026 | 05/14/2026 | Flutter Documentation |
+| Fri | - Test local Flutter mock interactions alongside dummy mock data states <br> - Document architectural guidelines for secure communications between mobile applications and AWS API Gateway | 05/15/2026 | 05/15/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Week 4 Achievements:
 
-- Understood the basic role of Amazon EC2 as a compute service for running virtual servers on AWS.
+#### 1. Isolated Cloud Networking
+* Understood how to construct an **Amazon VPC** network topology, creating multi-AZ public and private subnets.
+* Configured stateful **Security Groups** acting as firewalls to tightly control entry rules, ensuring data-tier nodes remain completely inaccessible from the public web.
 
-- Learned the main EC2 components:
-  - EC2 instance
-  - Amazon Machine Image (AMI)
-  - Instance type
-  - Key pair
-  - Security Group
-  - Elastic Block Store (EBS)
-  - ...
-
-- Understood how Amazon EBS provides block storage for EC2 instances and how snapshots can be used for backup purposes.
-
-- Learned the basic differences between AWS storage services:
-  - Amazon EBS for block storage
-  - Amazon EFS for shared file storage
-  - Amazon FSx for managed file systems
-  - ...
-
-- Understood the purpose of AWS Application Migration Service (AWS MGN) in migrating servers and workloads from on-premises or other environments to AWS.
-
-- Learned basic migration-related concepts such as:
-  - Source server
-  - Replication
-  - Test launch
-  - Cutover
-  - Migration lifecycle
-
-- Understood how EC2 Auto Scaling helps applications maintain availability and automatically adjust capacity based on demand.
-
-- Learned the relationship between scalability, availability, and cost optimization when designing cloud systems.
-
-- Completed notes and summaries about AWS compute, storage, migration, and scaling services to prepare for hands-on practice in the following weeks.
+#### 2. Client-Side Engineering & Network Specifications
+* Successfully designed an extensible UI baseline using **Flutter**, incorporating input validation layers for registration screens.
+* Established standardized networking abstractions using the `dio` ecosystem, prepping the application for seamless authentication token interceptors and production API usage.

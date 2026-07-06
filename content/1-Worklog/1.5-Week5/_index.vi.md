@@ -6,52 +6,30 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
----
-
 ### Mục tiêu tuần 5:
-
-- Ôn lại kiến thức về Amazon EC2, EBS, Security Group và networking cơ bản.
-- Thực hành xây dựng và kết nối đến máy chủ EC2.
-- Hiểu quy trình cơ bản khi thiết lập kết nối VPN.
-- Làm việc trực tiếp tại văn phòng công ty và tham gia thảo luận nhóm.
-- Cải thiện kỹ năng xử lý lỗi khi cấu hình EC2 và mạng.
+- Nghiên cứu chuyên sâu về kỹ thuật mô hình hóa dữ liệu nâng cao trong Amazon DynamoDB: Single-Table Design.
+- Khảo sát Global Secondary Indexes (GSIs) và Local Secondary Indexes (LSIs).
+- Ánh xạ các mối quan hệ thực thể phức tạp (Một-nhiều, Nhiều-nhiều) vào trong một bảng NoSQL duy nhất.
+- Thiết lập từ điển dữ liệu (Data Dictionary) sơ bộ cho công cụ xử lý cốt lõi của AWS BILLO.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Ôn lại kiến thức về Amazon EC2 ở tuần 4 <br> - Ôn lại các thành phần chính: <br>  + EC2 instance <br>  + AMI <br>  + Key pair <br>  + Security Group <br>  + EBS volume                                                                                                 | 18/05/2026   | 18/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Tìm hiểu cách khởi tạo EC2 instance <br> - Tìm hiểu cách cấu hình inbound rules trong Security Group <br> - Chuẩn bị ghi chú cho phần thực hành EC2                                                                                                                     | 19/05/2026   | 19/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Làm việc trực tiếp tại văn phòng công ty từ 08:30 đến 16:30 <br> - Làm việc nhóm để thực hành xây dựng máy chủ EC2 <br> - Cấu hình key pair và Security Group <br> - Kết nối đến EC2 instance bằng SSH <br> - Trao đổi lỗi và hướng xử lý với các thành viên trong nhóm | 20/05/2026   | 20/05/2026      | Company office                          |
-| 5   | - Tiếp tục thực hành cấu hình EC2 <br> - Tìm hiểu các bước xử lý lỗi cơ bản khi không thể SSH vào EC2 <br> - Kiểm tra các lỗi thường gặp liên quan đến key pair, Security Group, public IP và cấu hình mạng                                                               | 21/05/2026   | 21/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu và thực hành khái niệm kết nối VPN cơ bản <br> - Ôn lại mối liên hệ giữa VPC, subnet, route table và VPN connection <br> - Tổng hợp kết quả thực hành EC2 và VPN                                                                                               | 22/05/2026   | 22/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | - Làm việc trực tiếp tại văn phòng công ty <br> - Thảo luận và làm rõ các mối quan hệ dữ liệu của người dùng, đối tác thương mại, cửa hàng vật lý và số dư ví điện tử | 18/05/2026 | 18/05/2026 | Văn phòng công ty |
+| 3 | - Nghiên cứu khung lý thuyết thiết kế Single-Table Design được tiên phong bởi các chuyên gia trong ngành <br> - Tìm hiểu cách thức các khóa phân vùng tổng quát (`PK`) và khóa sắp xếp (`SK`) thay thế các bảng riêng lẻ | 19/05/2026 | 19/05/2026 | Tài liệu DynamoDB |
+| 4 | - Thiết kế các mô hình truy cập (Access Patterns) để lấy thông tin một cửa hàng, ví người dùng và bộ lọc lịch sử giao dịch <br> - Phác thảo sơ đồ ánh xạ thực thể mối quan hệ trên các công cụ bảng tính | 20/05/2026 | 20/05/2026 | Tài liệu DynamoDB |
+| 5 | - Triển khai và cấu hình các Global Secondary Indexes (GSIs) để phục vụ cho các truy vấn đảo ngược thực thể <br> - Phân tích khái niệm quá tải chỉ mục (Index Overloading) nơi một GSI phục vụ nhiều yêu cầu truy vấn khác nhau | 21/05/2026 | 21/05/2026 | Tài liệu DynamoDB |
+| 6 | - Trình bày ma trận các mô hình truy cập đã hoàn thiện cho Mentor dự án đánh giá và duyệt kiến trúc <br> - Tối ưu hóa chiến lược phân bổ khóa phân vùng nhằm giảm thiểu rủi ro nghẽn phân vùng (Hot-partition) | 22/05/2026 | 22/05/2026 | Văn phòng công ty |
+
+---
 
 ### Kết quả đạt được tuần 5:
 
-- Ôn tập và củng cố kiến thức về Amazon EC2 cùng các thành phần chính:
-  - EC2 instance
-  - AMI
-  - Instance type
-  - Key pair
-  - Security Group
-  - EBS volume
-  - ...
+#### 1. Chiến lược Single-Table Design
+* Làm chủ kỹ thuật nâng cao **Mô hình hóa NoSQL** thông qua tư duy Single-Table Design, chuyển dịch hoàn toàn khỏi tư duy cơ sở dữ liệu quan hệ truyền thống nhằm triệt tiêu chi phí tính toán của các lệnh Join đa bảng.
+* Xây dựng tài liệu ma trận hoàn chỉnh đáp ứng hơn 15+ mô hình truy cập (Access Patterns) của ứng dụng, đảm bảo tốc độ truy xuất dữ liệu tối ưu ở mức $O(1)$ hoặc $O(\log N)$.
 
-- Đã thực hành khởi tạo và cấu hình EC2 instance.
-
-- Hiểu cách inbound rules trong Security Group ảnh hưởng đến khả năng kết nối vào EC2 instance.
-
-- Đã làm việc trực tiếp tại văn phòng công ty vào ngày 20/05/2026 từ 08:30 đến 16:30.
-
-- Tham gia thảo luận nhóm và thực hành liên quan đến việc xây dựng máy chủ EC2, thiết lập kết nối VPN.
-
-- Biết một số bước xử lý lỗi thường gặp khi không kết nối được EC2, bao gồm:
-  - Kiểm tra key pair
-  - Kiểm tra public IP address
-  - Kiểm tra inbound rules của Security Group
-  - Kiểm tra network và route configuration
-  - Kiểm tra trạng thái instance
-
-- Hiểu mục đích cơ bản của VPN trong việc kết nối bảo mật giữa các hệ thống mạng riêng.
-
-- Có thêm kinh nghiệm thực tế khi làm việc với tài nguyên AWS và xử lý lỗi cấu hình trong quá trình thực hành lab.
+#### 2. Kỹ thuật Quá tải chỉ mục & An toàn băng thông
+* Cấu hình thành công các **Global Secondary Indexes (GSIs)** áp dụng kỹ thuật quá tải từ khóa, cho phép tìm kiếm chéo dữ liệu một cách linh hoạt qua các trường như `StoreId`, `TransactionDate`, hay `MerchantStatus` trong cùng một kho lưu trữ.
+* Loại bỏ nguy cơ thắt nút cổ chai dữ liệu bằng cách cấu trúc đồng đều các chiến lược phân phối dữ liệu trên các phân vùng giao dịch có tần suất truy cập cao.
