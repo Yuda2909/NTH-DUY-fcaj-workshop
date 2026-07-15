@@ -82,6 +82,10 @@ Phần này hướng dẫn demo các luồng chính như đăng ký Customer, du
 
 Phần này giải thích cách xem log Lambda trong CloudWatch và dọn dẹp tài nguyên AWS sau khi hoàn thành workshop.
 
+### [5.9 - Giới thiệu tổng quan dự án](5.9-project-overview/)
+
+Phần này trình bày các chức năng chính của AWS BILLO theo từng vai trò (Customer, Merchant, Admin), kèm ảnh chụp màn hình minh họa và bước thao tác chi tiết cho từng chức năng. Xem chi tiết tại 5.9.1, 5.9.2 và 5.9.3.
+
 ---
 
 ## Kết quả mong đợi

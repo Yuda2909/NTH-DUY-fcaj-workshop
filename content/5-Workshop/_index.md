@@ -81,6 +81,10 @@ This section guides users through the main demo flows, including customer regist
 
 This section explains how to check Lambda logs in CloudWatch and clean up AWS resources after finishing the workshop.
 
+### [5.9 - Project Overview](5.9-project-overview/)
+
+This section presents the major features of AWS BILLO for each user role (Customer, Merchant, and Admin), including screenshots and step-by-step demonstrations of each feature. Additional details are provided in Sections 5.9.1, 5.9.2, and 5.9.3.
+
 ---
 
 ## Expected Result
