@@ -16,7 +16,7 @@ Các sự kiện này giúp tôi củng cố kiến thức kỹ thuật và tư 
 
 ### [4.1 - Sự kiện 1: Automated Prompt Engineering](4.1-Event-1/)
 
-Sự kiện này giới thiệu tầm quan trọng của Prompt Engineering, cấu trúc của một prompt hiệu quả, các kỹ thuật prompting nâng cao, token economics và ứng dụng Proptimizer được xây dựng trên kiến trúc serverless của AWS.
+Sự kiện này giới thiệu nền tảng của Prompt Engineering, cấu trúc của một prompt hiệu quả, các kỹ thuật prompting nâng cao, token economics và demo Proptimizer được xây dựng trên AWS.
 
 Thời gian: 09:00 ngày 09/05/2026
 
@@ -26,7 +26,7 @@ Vai trò trong sự kiện: Người tham dự
 
 ### [4.2 - Sự kiện 2: Automated Prompt Engineering](4.2-Event-2/)
 
-Sự kiện này cung cấp góc nhìn kỹ thuật sâu hơn về automated prompt engineering, các phương pháp prompting nâng cao, tối ưu chi phí token và kiến trúc AWS serverless có thể áp dụng cho sản phẩm AI thực tế.
+Sự kiện này mở rộng về automated prompt engineering với góc nhìn kỹ thuật sâu hơn về các phương pháp prompting, tối ưu token và kiến trúc AWS serverless cho sản phẩm AI thực tế.
 
 Thời gian: 09:00 ngày 06/06/2026
 
@@ -36,9 +36,19 @@ Vai trò trong sự kiện: Người tham dự
 
 ### [4.3 - Sự kiện 3: Cloud Skills & Confidence](4.3-Event-3/)
 
-Buổi chia sẻ củng cố quan điểm rằng chỉ đọc về các dịch vụ AWS là chưa đủ. Những công cụ như Cloud Quest và Floci giúp việc thực hành diễn ra trong môi trường ít rủi ro và ít tốn kém, từ đó giảm rào cản để sinh viên bắt đầu thử nghiệm với các workload cloud thực tế.
+Buổi chia sẻ nhấn mạnh cách học AWS qua thực hành với Cloud Quest và Floci, cùng vai trò của sự tự tin trong phát triển sự nghiệp, đời sống sinh viên và hoạt động cộng đồng.
 
 Thời gian: 09:00 ngày 30/05/2026
+
+Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+Vai trò trong sự kiện: Người tham dự
+
+### [4.4 - Sự kiện 4: Agentic AI Build Week](4.4-Event-4/)
+
+Sự kiện này có phần thuyết trình của nhiều team với bốn dự án Agentic AI khác nhau, xoay quanh tự động hóa kiến trúc giải pháp, đặt món qua hội thoại, hành trình hackathon và phân tích tín hiệu doanh nghiệp để hỗ trợ ra quyết định.
+
+Thời gian: 09:00 ngày 25/07/2026
 
 Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 

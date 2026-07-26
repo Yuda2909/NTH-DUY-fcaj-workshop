@@ -16,7 +16,7 @@ These events helped me strengthen both technical knowledge and practical thinkin
 
 ### [4.1 - Event 1: Automated Prompt Engineering](4.1-Event-1/)
 
-This event introduced the importance of prompt engineering, the structure of effective prompts, advanced prompting techniques, token economics, and the Proptimizer application built on AWS serverless architecture.
+This event introduced prompt engineering fundamentals, the structure of an effective prompt, advanced prompting techniques, token economics, and the Proptimizer demo built on AWS.
 
 Date & Time: 09:00, May 09, 2026
 
@@ -26,7 +26,7 @@ Role: Attendee
 
 ### [4.2 - Event 2: Automated Prompt Engineering](4.2-Event-2/)
 
-This event provided a deeper technical view of automated prompt engineering, advanced prompting methods, token cost optimization, and a production-ready AWS serverless architecture for AI applications.
+This event expanded on automated prompt engineering with deeper technical coverage of prompting methods, token optimization, and a production-ready AWS serverless AI architecture.
 
 Date & Time: 09:00, June 06, 2026
 
@@ -36,9 +36,19 @@ Role: Attendee
 
 ### [4.3 - Event 3: Cloud Skills & Confidence](4.3-Event-3/)
 
-This session reinforced the idea that reading about AWS services is not enough. Tools like Cloud Quest and Floci make it possible to practice in a low-risk, low-cost environment, which lowers the barrier for students to start experimenting with real cloud workloads.
+This session highlighted hands-on AWS learning with Cloud Quest and Floci, plus the role of confidence in career growth, campus life, and community involvement.
 
 Date & Time: 09:00, May 30, 2026
+
+Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+Role: Attendee
+
+### [4.4 - Event 4: Agentic AI Build Week](4.4-Event-4/)
+
+This event featured team presentations on four different Agentic AI projects, covering solution architecture automation, conversational ordering, a hackathon journey, and signal intelligence for business decision support.
+
+Date & Time: 09:00, July 25, 2026
 
 Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 

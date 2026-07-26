@@ -13,7 +13,7 @@ chapter: false
 
   **Full Name:** Nguyen Tran Hong Duy
 
-  **Phone Number:** 0764403513
+  **Phone Number:** 0764403513 
 
   **Email:** [nth.duy2909@gmail.com](mailto:nth.duy2909@gmail.com)
 
@@ -25,7 +25,7 @@ chapter: false
 
   **Class:** 22DTHJA1
 
-  **Internship Company:** Công ty TNHH Amazon Web Services Viet Nam
+  **Internship Company:** Công ty TNHH Amazon Web Services Việt Nam
 
   **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 

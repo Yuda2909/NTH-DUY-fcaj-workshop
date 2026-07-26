@@ -61,7 +61,7 @@ The talk on confidence was a reminder that technical skills alone are not enough
 
 ## Professional Application Plan
 
-After this event, I can apply the knowledge in the following ways:
+After this event, can apply the knowledge in the following ways:
 
 - **Use AWS Cloud Quest** to practice cloud concepts in a structured, gamified way.
 - **Use Floci** to test AWS workloads locally before deploying to the cloud, reducing cost risk.

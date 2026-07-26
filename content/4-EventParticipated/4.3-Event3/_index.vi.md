@@ -61,7 +61,7 @@ Phần chia sẻ về sự tự tin là lời nhắc nhở rằng chỉ có kỹ
 
 ## Kế Hoạch Ứng Dụng Trong Công Việc
 
-Sau sự kiện này, mình có thể áp dụng những kiến thức đã học theo các hướng sau:
+Sau sự kiện này, có thể áp dụng những kiến thức đã học theo các hướng sau:
 
 - **Sử dụng AWS Cloud Quest** để luyện tập các khái niệm cloud một cách bài bản, theo dạng game hóa.
 - **Sử dụng Floci** để kiểm thử workload AWS cục bộ trước khi triển khai lên cloud, giảm rủi ro về chi phí.

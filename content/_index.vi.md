@@ -25,7 +25,7 @@ chapter: false
 
   **Lớp:** 22DTHJA1
 
-  **Đơn vị thực tập:** Công ty TNHH Amazon Web Services Viet Nam
+  **Đơn vị thực tập:** Công ty TNHH Amazon Web Services Việt Nam
 
   **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
